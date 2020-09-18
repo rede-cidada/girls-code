@@ -5,7 +5,7 @@ const Footer = () => {
     return(
         <div>
             <footer>
-            &copy;Girl code 2020
+            &copy;Girl code 2020 .  
                 <ul>
                     <li><a href="">Github</a></li>
                     <li><a href="">Linkedin</a> </li>
