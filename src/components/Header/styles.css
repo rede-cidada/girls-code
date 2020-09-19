@@ -1,3 +1,55 @@
 .header {
-    background-color: yellow;
-}
+    background: transparent;
+  
+    width: 100vw;
+    height: 3rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.1rem;
+    padding: 10px;
+
+    position: fixed;
+  }
+  
+  ul, 
+  li {
+    list-style: none;
+    display: inline;
+  }
+
+  .navegation ul li {
+      margin: 0.2rem;
+      
+  }
+  
+  .navegation ul li a {
+    text-decoration: none;
+  }
+
+  .navegation ul li a:hover {
+      color: pink;
+  }
+  
+  .logo-header {
+    width: 2.8rem;
+    margin: 0.3rem;
+  }
+
+  @media (min-width: 900px) {
+      .header {
+          padding: 0;
+      }
+
+      .navegation ul li {
+          margin: 25px;
+      }
+
+      .logo-header {
+          margin: 25px;
+      }
+  }
+  
+ 

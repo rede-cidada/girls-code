@@ -1,22 +1,42 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
+
+import logoIcon from "./assets/icon.png";
+
+
 
 const Header = () => {
-    return ( 
+  return (
+    <header className="header">
+      <img src={logoIcon} alt="logo" className="logo-header" />
 
-        <header className="header">
-            <nav>
-                <ul>
-                    <li><a href='#'>Sobre</a></li>
-                    <li><a href='#'>Guias</a></li>
-                    <li><a href='#'>Mentores</a></li>
-                    <li><a href='#'>Contato</a></li>
-                </ul>
-            </nav>
-
-        </header>
-
-    )
-}
+      <nav className="navegation">
+    
+        <ul>
+          <li className="menu-item">
+            <a href="#menu">
+              Sobre
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#menu">
+              Guias
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#menu">
+              Voluntárias
+            </a>
+          </li>
+          <li className="menu-item">
+            <a href="#menu">
+              Contato
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
 export default Header;
