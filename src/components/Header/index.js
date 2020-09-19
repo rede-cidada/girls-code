@@ -4,7 +4,7 @@ import './styles.css';
 const Header = () => {
     return ( 
 
-        <div className="header">
+        <header className="header">
             <nav>
                 <ul>
                     <li><a href='#'>Sobre</a></li>
@@ -13,11 +13,9 @@ const Header = () => {
                     <li><a href='#'>Contato</a></li>
                 </ul>
             </nav>
-       
 
-        </div>
+        </header>
 
-        
     )
 }
 
