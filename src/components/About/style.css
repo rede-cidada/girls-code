@@ -1,0 +1,14 @@
+.about-section {
+  width: 100%;
+  height: 80%;
+  background: gray;
+}
+
+.about {
+  padding: 10px;
+  font-size: 1.7rem;
+}
+
+.text-about {
+  padding: 10px;
+}
