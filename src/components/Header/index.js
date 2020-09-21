@@ -11,27 +11,26 @@ const Header = () => {
       <img src={logoIcon} alt="logo" className="logo-header" />
 
       <nav className="navegation">
-    
+        
+        <input id="navbar" type="checkbox"></input>
+          <label for="navbar">
+            <div className="menu">
+              <span className="menu-btn"></span>
+            </div>
+          </label>
+
         <ul>
-          <li className="menu-item">
-            <a href="#menu">
-              Sobre
-            </a>
+          <li>
+             <a href="#">Guias</a>
+           </li>
+          <li>
+             <a href="#">Colaboradores</a>
           </li>
-          <li className="menu-item">
-            <a href="#menu">
-              Guias
-            </a>
+          <li>
+            <a href="#">Sobre</a>
           </li>
-          <li className="menu-item">
-            <a href="#menu">
-              Voluntárias
-            </a>
-          </li>
-          <li className="menu-item">
-            <a href="#menu">
-              Contato
-            </a>
+          <li>
+            <a href="#">Contato</a>
           </li>
         </ul>
       </nav>
