@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-import logoIcon from "./assets/icon.png";
+import logoIcon from "./assets/girls-logo.svg";
 
 
 
