@@ -17,8 +17,9 @@ function App() {
       <About/>
       <Guia name="Guia" />
       <Guia name="colaboradores" />
-
       <Footer />
+
+      
     </div>
   );
 }

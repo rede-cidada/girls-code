@@ -1,11 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
+
   Footer {
     background-color: black;
     color: antiquewhite;
+
+    width: 100%;
   }
   .rodape{
       margin: auto;
@@ -16,16 +14,17 @@
     font-size: 30px;
   }
   
-  ul {
+  footer ul {
     list-style: none;
     margin-right: 70px;
   }
-  a {
+
+  footer a {
     text-decoration: none;
     color: antiquewhite;
   }
   
-  .footerTexto {
+  .footerImg {
     width: 280px;
     text-align: center;
     margin: auto;
