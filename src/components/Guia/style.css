@@ -1,0 +1,32 @@
+
+.section-guia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-guia {
+    background: #ae8cbb;
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .paragraph-guia {
+    width: 20rem;
+  }
+  
+  .link-guia {
+    display: inline-block;
+    width: 12rem;
+    height: 2.5rem;
+    padding: 10px;
+    border: 1px solid #855298;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 3px;
+  }

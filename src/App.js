@@ -4,6 +4,8 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import { Info } from './components/Info';
+import { Guia } from './components/Guia';
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 
 
@@ -13,6 +15,9 @@ function App() {
       <Header />
       <Info />
       <About/>
+      <Guia name="Guia" />
+      <Guia name="colaboradores" />
+
       <Footer />
     </div>
   );
