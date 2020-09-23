@@ -6,12 +6,15 @@
 
 .about-section {
   width: 100vw;
-  height: 80%;
+  height: 90vh;
   background: #d789d7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-section h2 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #562349;
 }
 
@@ -21,19 +24,10 @@
   color: #252525;
 }
 
-.about-section p strong {
-  color: #562349;
+
+@media (min-width: 900px) {
+  .about-section p {
+    width: 60vw;
+  }
 }
 
-/* @media (min-width: 900px) {
-  .about-section {
-    display: flex;
-    flex-direction: ;
-    justify-content: space-around;
-  }
-
-  .about-section p {
-    font-size: 1.2rem;
-  }
-
-} */
