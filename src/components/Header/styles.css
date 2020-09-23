@@ -1,3 +1,179 @@
 .header {
-    background-color: yellow;
-}
+    background: transparent;
+  
+    width: 100vw;
+    height: 3rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.1rem;
+    padding: 10px;
+
+    position: fixed;
+  }
+
+  .navegation ul li {
+      margin: 0.2rem;
+      list-style: none;
+      
+  }
+  
+  .logo-header {
+    width: 5rem;
+    margin-left: 1rem;
+  }
+
+  logo-header {
+    width: 5rem;
+    margin: 0.3rem;
+  }
+
+  /* estilo do menu hamburguer */
+  
+  *:before,
+  *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu {
+    background: transparent;
+    border-radius: 50%;
+  
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    right: 25px;
+    top: -6px;
+    transition: box-shadow 1.1s cubic-bezier(0.19, 1, 0.22, 1);
+  
+    z-index: 2;
+  }
+  
+  .menu-btn {
+    position: relative;
+    top: 29px;
+    left: 15px;
+    width: 30px;
+    height: 2px;
+    background: #000;
+    display: block;
+    transform-origin: center;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .menu-btn:after,
+  .menu-btn:before {
+    background: #000;
+    content: "";
+    display: block;
+    transition: 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .menu-btn:before {
+    top: -10px;
+  }
+  
+  .menu-btn:after {
+    bottom: -10px;
+  }
+  
+  .navegation input {
+    display: none;
+  }
+  
+  input:checked ~ label .menu-btn {
+    transform: rotate(45deg);
+  }
+  
+  input:checked ~ label .menu-btn:after {
+    transform: rotate(90deg);
+    bottom: 0;
+  }
+  
+  input:checked ~ label .menu-btn:before {
+    transform: rotate(90deg);
+    top: 0;
+  }
+  
+  input:checked ~ ul {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .navegation ul {
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    font-size: 1.1rem;
+    opacity: 0;
+    transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
+    visibility: hidden;
+    z-index: 2;
+  }
+  
+  .navegation ul li a {
+    color: #2b0548;
+    display: block;
+    margin-bottom: 1em;
+    text-decoration: none;
+  }
+  
+  .navegation ul li a:hover {
+    color: black;
+  }
+
+  @media (min-width: 900px) {
+
+      .header {
+          padding: 0;
+          
+      }
+
+      .navegation ul li {
+          margin: 25px;
+          
+      }
+
+      .logo-header {
+          margin: 25px;
+      }
+
+      .menu,
+      .menu-btn,
+      #nav-bar {
+        
+        cursor: default;
+        visibility: hidden;
+        
+      }
+
+      /* faz o menor normal aparecer no desktop */
+
+      .navegation ul {
+
+        visibility: visible;
+        position: static;
+        
+        opacity: initial;
+
+        transform: none;
+
+        display: flex;
+        margin-top: 13px;
+        
+  
+
+      }
+  }
+  
+ 

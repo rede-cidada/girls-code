@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-section {
+  width: 100vw;
+  height: 80%;
+  background: #d789d7;
+}
+
+.about-section h2 {
+  font-size: 1.5rem;
+  color: #562349;
+}
+
+.about-section p {
+  padding: 10px 10px;
+  font-size: 1.2rem;
+  color: #252525;
+}
+
+.about-section p strong {
+  color: #562349;
+}
+
+/* @media (min-width: 900px) {
+  .about-section {
+    display: flex;
+    flex-direction: ;
+    justify-content: space-around;
+  }
+
+  .about-section p {
+    font-size: 1.2rem;
+  }
+
+} */
