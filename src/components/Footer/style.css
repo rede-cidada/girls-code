@@ -1,69 +1,57 @@
 
-  Footer {
-    background-color: black;
+  .footer {
+    background-color: #855298;
     color: antiquewhite;
-
     width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
   }
-  .rodape{
-      margin: auto;
+  .box-imageFooter {
+    margin-bottom: 2rem;
   }
-
- 
-  .icon {
-    font-size: 30px;
-  }
-  
-  footer ul {
-    list-style: none;
-    margin-right: 70px;
+  .container-footer {
+    margin-top: 1rem;
   }
 
-  footer a {
-    text-decoration: none;
-    color: antiquewhite;
-  }
-  
-  .footerImg {
-    width: 280px;
-    text-align: center;
-    margin: auto;
+  .box-sobreNos {
+    width: 15rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .contatos {
-    margin: auto;
-    margin-left: 70px;
+  .title-footer {
+    font-size: 1.2rem;
+    color: #24285B;
   }
-  
-  
-  
-  /* edição para tela maior */
-  
-  @media (min-width: 630px) {
-    Footer {
-      height: 70vh;
-    }
-  
-    .footerTodo {
-      display: flex;
-    }
-  
-    .contatos {
-      display: flex;
-      margin-top: 50px;
-    }
+
+  .link-sobre {
+    margin-top: 1rem;
+    color: #FFC864;
   }
-  .rodape {
-   margin: auto;
-  }
+
+.box-contato {
+  width: 15rem;
+  height: 5rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  color: #FFC864;
+}
+
+.paragraph-footer {
+  margin-top: 1rem;
+}
   
-  @media (min-width: 989px) {
-    .footerTexto {
-      width: 300px;
-      margin-top: 50px;
-    }
-    .contatos {
-      margin-left: 200px;
-    }
-  }
+.span-copy {
+  margin-top: 1.5rem;
+  color: #24285B;
+}
+  
   

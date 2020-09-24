@@ -6,91 +6,33 @@ import Logo from "../../assets/girls-logo.svg";
 
 const Footer = () => {
     return(
-        <div>
-          <footer>
+      <footer className="footer">
+      <div className="box-imageFooter">
+        <img src={Logo} alt="Logo Girls code"/>
+      </div>
 
-              <section className="footerImg">
-                <img src={Logo} alt="logo" />
-                
-              </section>
-              
-              <section className="contatos">
-                <ul>
-                  <h3>Franciele Bernado</h3>
+      <div className="container-footer">
 
-                  <li>
-                    <a
-                      href="https://github.com/FranBernardo"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <AiFillGithub className="icon" />
-                    </a>
-                  </li>
+        <div className="box-sobreNos">
+          <h4 className="title-footer">Girls Code</h4>
+          <a className="link-sobre" href="/">Sobre nós</a>
+        </div>
 
-                  <li>
-                    <a
-                      href="https://www.instagram.com/fran_bernardo_/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <AiFillLinkedin className="icon" />
-                    </a>
-                  </li>
-                </ul>
-                <ul>
-                  <h3>Alice Cavalcanti</h3>
-                  <li>
-                    <a href="#">
-                      <AiFillGithub className="icon" />
-                    </a>
-                  </li>
+        <div className="box-contato">
+          <h4 className="title-footer">Fale com a gente:</h4>
+          <p className="paragraph-footer">girlscode@gmail.com</p>
+        </div>
 
-                  <li>
-                    <a href="#">
-                      <AiFillLinkedin className="icon" />
-                    </a>
-                  </li>
-                </ul>
-                <ul>
-                  <h3>Ana Beatriz</h3>
-                  <li>
-                    <a href="#">
-                      <AiFillGithub className="icon" />
-                    </a>
-                  </li>
+        <div className="box-contato">
+          <h4 className="title-footer">Nossas redes sociais:</h4>
+          <p className="paragraph-footer">girlscode@gmail.com</p>
+        </div>
+      </div>
+     
+      <span className="span-copy">&copy; Girls code 2020</span>
+    </footer>
 
-                  <li>
-                    <a href="#">
-                      <AiFillLinkedin className="icon" />
-                    </a>
-                  </li>
-                </ul>
-                <ul>
-                  <h3>Ana Julia</h3>
-                  <li>
-                    <a href="#">
-                      <AiFillGithub className="icon" />
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="#">
-                      <AiFillLinkedin className="icon" />
-                    </a>
-                  </li>
-                </ul>
-              </section>
-            
-
-          
-              <p className="rodape">&copy;2020 GIRLS CODE</p>
-            
-
-          </footer>
-    </div>
     )
-   
 }
 
 export default Footer;
