@@ -5,10 +5,20 @@ const About = () => {
   return (
     <section className="about-section">
       <div>
-        <h2>Girls &#60;code&#62;</h2>
+        <h2>Agora vem cá pra eu te contar!</h2>
+
+        
+
+        <p className="first-text">
+          O <span id="girls">Girls</span><span id="code">&#60;code&#62;</span> surgiu da vontade de três alunas de programação de trazer mais mulheres para a área de tecnologia, guiando nos primeiros passos e montando essa rede de apoio massa entre mulheres iniciantes!
+        </p>
+
         <p>
-          O Girls&#60;code&#62; surgiu da necessidade de trazer mais mulheres para a área de tecnologia. Tendo em vista que essa área tem crescido bastante e atingido muitas mulheres, diversas ainda não são alcançadas...e é nelas que o Girls&#60;code&#62; está pensando. Mulheres que são mães, independente de idade, mesmo que não saibam nada de tecnologia...viemos mostrar que elas também podem! Nossa aplicação traz um guia iniciante em informática e conecta diversas mulheres que também estão tentando entrar nesse meio, compartilhando histórias e conhecimentos.
-      </p>
+          E aliás... você <span id="enfase">pode</span> não saber nada sobre essa área ainda e tá tudo bem! Cola com a gente que é sucesso.
+        </p>
+
+       
+       
       </div>
     </section>
   );

@@ -14,8 +14,28 @@
 .about-section h2 {
 
   font-size: 1.7rem;
-  color: #562349;
+  color: #FFC864;
+  font-weight: bold;
 
+  margin-bottom: 2.5rem;
+
+}
+
+.about-section #girls {
+  text-transform: uppercase;
+  color:#24285B;
+  font-weight: bold;
+}
+
+.about-section #code {
+  color:#FFC864;
+  font-weight: bold;
+}
+
+.about-section #enfase {
+  text-transform: uppercase;
+  color: #24285B;
+  font-weight: bold;
 }
 
 .about-section p {
@@ -30,6 +50,21 @@
 @media (min-width: 900px) {
   .about-section p {
     width: 60vw;
+
+    font-size: 1.7rem;
+
+
   }
+
+  .about-section h2 {
+    font-size: 3rem;
+
+    margin-bottom: 5rem;
+  }  
+
+  .first-text {
+    margin-bottom: 1.5rem;
+  }
+
 }
 
