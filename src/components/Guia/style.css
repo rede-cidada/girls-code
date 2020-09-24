@@ -8,12 +8,15 @@
 }
 .box-guia {
     background: #ae8cbb;
-    width: 40rem;
-    height: 30rem;
+    width: 100%;
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .box-guia-style {
+    background: #855298;
   }
   .paragraph-guia {
     width: 20rem;
@@ -21,14 +24,14 @@
   
   .link-guia {
     display: inline-block;
+    background: #FFC864;
     width: 12rem;
-    height: 2.5rem;
-    padding: 10px;
-    border: 1px solid #855298;
+    height: 3rem;
+    padding: 13px;
     margin-top: 2rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: #fff;
+    color: #24285B;
     letter-spacing: 1px;
     border-radius: 3px;
   }

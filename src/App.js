@@ -15,8 +15,7 @@ function App() {
       <Header />
       <Info />
       <About/>
-      <Guia name="Guia" />
-      <Guia name="colaboradores" />
+      <Guia />
       <Footer />
 
       

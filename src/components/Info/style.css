@@ -1,6 +1,6 @@
 .info {
     width: 100%;
-    height: 35rem;
+    height: 100vh;
     background: palegreen;
     display: flex;
     justify-content: center;

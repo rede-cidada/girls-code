@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import "./footer.css";
-import Logo from "./Logo.svg";
+import "../Footer/style.css";
+import Logo from "../../assets/girls-logo.svg";
 
 
 const Footer = () => {
