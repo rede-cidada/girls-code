@@ -1,21 +1,23 @@
 .info {
     width: 100%;
     height: 100vh;
-    background: palegreen;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+    background: #e5e5e5;
+}
+.image-superWoman {
+    width: 20rem;
 }
 
 .title-info {
     font-size: 2rem;
 }
-
+.teste {
+    margin-top: 2rem;
+}
 .paragraph-info {
-    margin-top: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 30px;
     font-size: 1.3rem;
 }
