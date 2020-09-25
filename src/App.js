@@ -6,6 +6,7 @@ import Header from './components/Header';
 import { Info } from './components/Info';
 import { Guia } from './components/Guia';
 import { BrowserRouter, Route, Link } from "react-router-dom";
+import Slider from './components/slider/Slider';
 
 
 
@@ -14,11 +15,12 @@ function App() {
     <div className="App">
       <Header />
       <Info />
-      <About/>
+      < Slider />
+      <About />
       <Guia />
       <Footer />
 
-      
+
     </div>
   );
 }
