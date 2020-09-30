@@ -2,13 +2,13 @@ import React from 'react';
 import About from '../../components/About';
 import { Guia } from '../../components/Guia';
 import { Info } from '../../components/Info';
-import Slider from '../../components/slider/Slider';
+import Slide from '../../components/Slide';
 
 const Home = () => {
     return (
         <div className="home">
             <Info />
-            < Slider />
+            <Slide />
             < About />
             < Guia />
         </div>
