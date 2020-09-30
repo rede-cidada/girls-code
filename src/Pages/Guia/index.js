@@ -1,9 +1,10 @@
 import React from 'react';
+import PageOne from '../../components/PageOne';
 
 const Guia = () => {
     return (
-        <div>
-            <h1>GUIAAAAAA</h1>
+        <div className="PageOne-Guia">
+            <PageOne />
         </div>
 
     )
