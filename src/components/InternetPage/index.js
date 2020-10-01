@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
 
+import InternetFigure from "../../assets/internet_figure.svg";
+
 const InternetPage = () => {
   return (
     <div className="internet-area">

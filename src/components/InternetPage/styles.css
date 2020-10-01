@@ -33,14 +33,17 @@
 
 @media (min-width: 900px) {
     .internet-area {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         
     }
 
     .internet-texto {
-
-        border: 1px solid red;
-
-        width: 35rem;
+        width: 45rem;
+        margin: 0px 0px 55px 0px;
         
     }
 
@@ -50,13 +53,16 @@
     }
 
     .internet-texto p {
-        margin: 0;
+        margin: 25px 0px 0px 0px;
+        font-size: 1.3rem;
+
         
     }
     .internet-video {
-        border: 1px solid red;
 
         width: 50%;
         height: 50%;
+
+        margin: 0px 0px 70px 0px;
     }
 }

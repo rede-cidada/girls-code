@@ -1,0 +1,17 @@
+.container-area {
+
+    width: 100%;
+}
+
+@media (min-width: 900px) {
+
+    .container-area {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-area img {
+      width: 30rem;
+    }
+}
