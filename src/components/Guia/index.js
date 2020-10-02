@@ -9,7 +9,7 @@ export const Guia = () => {
         <p className="paragraph-guia">
           Aqui tu encontra o nosso mini guia sobre essa área e indicações de cursos gratuitos pra tu conhecer esse universo lindo.
         </p>
-        <Link to={`/guia`} className="link-guia">
+        <Link to='/guia' className="link-guia">
           guia de estudos
         </Link>
       </div>

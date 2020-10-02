@@ -3,6 +3,12 @@ import "./styles.css";
 
 import logoIcon from "../../assets/girls-logo.svg";
 
+import { Link } from 'react-router-dom';
+
+// import { BrowserRouter, Switch, Route } from 'react-router-dom';
+// import Home from './Pages/Home';
+// import Guia from './Pages/Guia';
+// import Colaboradores from './Pages/Colaboradores';
 
 
 const Header = () => {
@@ -21,7 +27,7 @@ const Header = () => {
 
         <ul>
           <li>
-            <a href="#">Guias</a>
+            {/* <Link to={"/guia"}>Guias</Link> */}
           </li>
           <li>
             <a href="#">Colaboradores</a>

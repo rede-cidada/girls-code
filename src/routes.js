@@ -8,9 +8,9 @@ import Colaboradores from './Pages/Colaboradores';
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Home} />
-            < Route exact path="/guia" component={Guia} />
-            < Route exact path="/colaboradores" component={Colaboradores} />
+            <Route exact path="/"><Home/></Route>
+            < Route exact path="/guia"><Guia /></Route>
+            < Route exact path="/colaboradores" ><Colaboradores/></Route>
         </Switch>
     </BrowserRouter>
 );

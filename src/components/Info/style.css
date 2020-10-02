@@ -13,11 +13,28 @@
 
 .title-info {
     font-size: 2rem;
+    text-transform: uppercase;
 }
-.teste {
+.box-info {
     margin-top: 2rem;
 }
 .paragraph-info {
     padding: 20px 30px;
     font-size: 1.3rem;
+}
+.teste {
+    text-transform: lowercase;
+}
+
+@media (min-width: 700px) {
+    .info {
+        flex-direction: row;
+    }
+    .image-superWoman {
+        width: 50rem;
+    }
+    .title-info {
+        font-size: 2.7rem;
+        
+    }
 }

@@ -22,7 +22,7 @@
     margin-top: 1.2rem;
     color: #455A64;
     letter-spacing: 1px;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     font-weight: bold;
 }
 
@@ -62,5 +62,6 @@
     }
     .descricao-img {
         font-size: 1.3rem;
+        padding: 0;
     }
 }
