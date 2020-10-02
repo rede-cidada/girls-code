@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 import PageOne from '../../components/PageOne';
 import InternetPage from '../../components/InternetPage';
@@ -7,6 +7,9 @@ import AreasPage from '../../components/AreasPage';
 
 
 const Guia = () => {
+    useEffect(() => {
+        window.scrollTo(0,0);
+    }, []);
     return (
         <div className="PageOne-Guia">
             <PageOne />

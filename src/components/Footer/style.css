@@ -6,14 +6,18 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     height: 30rem;
   }
   .box-imageFooter {
     margin-bottom: 2rem;
+    display: flex;
+    margin-left: 3rem;
   }
   .container-footer {
     margin-top: 1rem;
+    margin-left: 3rem;
+
   }
 
   .box-sobreNos {

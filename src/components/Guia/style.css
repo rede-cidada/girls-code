@@ -37,3 +37,9 @@
     letter-spacing: 1px;
     border-radius: 3px;
   }
+
+  @media (min-width: 700px) {
+    .section-guia {
+      flex-direction: row;
+    }
+  }

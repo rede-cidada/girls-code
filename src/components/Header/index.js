@@ -27,13 +27,13 @@ const Header = () => {
 
         <ul>
           <li>
-            {/* <Link to={"/guia"}>Guias</Link> */}
+            <Link to={"/guia"}>Guias</Link>
           </li>
           <li>
             <a href="#">Colaboradores</a>
           </li>
           <li>
-            <a href="#">Sobre</a>
+            <a href="#sobre">Sobre</a>
           </li>
           <li>
             <a href="#">Contato</a>

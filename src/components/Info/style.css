@@ -29,12 +29,18 @@
 @media (min-width: 700px) {
     .info {
         flex-direction: row;
+        justify-content: space-evenly;
     }
     .image-superWoman {
-        width: 50rem;
+        width: 35rem;
     }
     .title-info {
         font-size: 2.7rem;
-        
+        text-align: left;
+    }
+    .paragraph-info {
+        text-align: left;
+        padding-left: 0;
+        width: 30rem;
     }
 }
