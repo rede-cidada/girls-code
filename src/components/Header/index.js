@@ -27,6 +27,9 @@ const Header = () => {
 
         <ul>
           <li>
+            <Link to={"/"}>Home</Link>
+          </li>
+          <li>
             <Link to={"/guia"}>Guias</Link>
           </li>
           <li>

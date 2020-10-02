@@ -1,6 +1,30 @@
 .container-area {
 
     width: 100%;
+    background-color: #24285b;
+    color: #ffc864;
+    
+}
+
+.container-area ul li {
+
+    list-style: none;
+    
+
+    width: 20rem;
+
+    margin: 15px auto auto auto;
+}
+
+.container-area img {
+    width: 20rem;
+}
+
+.frontend {
+
+    text-align: center;
+   
+
 }
 
 @media (min-width: 900px) {
@@ -9,6 +33,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: 100vh;
     }
 
     .container-area img {

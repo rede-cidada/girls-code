@@ -1,6 +1,94 @@
 .container-profe {
 
     width: 100%;
-    height: 100vh;
+    
     background-color: #ffc864;
+
+    padding: 20px;
+}
+
+.container-profe ul li {
+    list-style: none;
+}
+
+.profe-text h2 {
+
+    margin: 5px 0px 15px 0px;
+
+    font-size: 2.3rem;
+
+}
+
+.more-info {
+    font-size: 1.2rem;
+
+    margin: 45px 0px 10px 0px;
+}
+
+.profe-text p {
+    margin: 5px;
+    font-size: 1.3rem;
+}
+
+.profe-list ul {
+    margin: 30px 0px 10px 0px;
+}
+
+.profe-list ul li {
+    margin: 5px 0px 10px 0px;
+}
+
+.profe-list ul li h3 {
+    margin: 0px 0px 15px 0px;
+    font-size: 1.3rem;
+
+    background-color: #855298;
+    color: #ffc864;
+
+    border-radius: 25px;
+
+    height: 2.3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profe-list ul li p {
+
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+@media (min-width: 900px) {
+    .profe-text h2 {
+        font-size: 40px;
+    }
+
+    .profe-list {
+
+        margin: 0 auto;
+    }
+
+    .profe-list ul li h3 {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .profe-list ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .profe-list ul li p {
+
+        width: 30rem;
+        margin: 10px;
+        font-size: 20px;
+    }
 }
