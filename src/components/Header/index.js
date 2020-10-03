@@ -1,14 +1,9 @@
 import React from "react";
 import "./styles.css";
 
-import logoIcon from "../../assets/girls-logo.svg";
+import logoIcon from "../../assets/nova-logo.svg";
 
 import { Link } from 'react-router-dom';
-
-// import { BrowserRouter, Switch, Route } from 'react-router-dom';
-// import Home from './Pages/Home';
-// import Guia from './Pages/Guia';
-// import Colaboradores from './Pages/Colaboradores';
 
 
 const Header = () => {
@@ -19,7 +14,7 @@ const Header = () => {
       <nav className="navegation">
 
         <input id="navbar" type="checkbox"></input>
-        <label for="navbar">
+        <label htmlFor="navbar">
           <div className="menu">
             <span className="menu-btn"></span>
           </div>
@@ -27,19 +22,19 @@ const Header = () => {
 
         <ul>
           <li>
-            <Link to={"/"}>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to={"/guia"}>Guias</Link>
+            <Link to="/guia">Guias</Link>
           </li>
           <li>
-            <a href="#">Colaboradores</a>
-          </li>
+            <Link to="/colaboradores">Colaboradores</Link>
+       </li>
           <li>
             <a href="#sobre">Sobre</a>
           </li>
           <li>
-            <a href="#">Contato</a>
+            <a href="#footer">Contato</a>
           </li>
         </ul>
       </nav>

@@ -1,17 +1,22 @@
 import React from 'react'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import "../Footer/style.css";
-import Logo from "../../assets/girls-logo.svg";
+import Logo from "../../assets/nova-logo.svg";
+import imageConnetions from "../../assets/conects-woman.svg";
 
 
 const Footer = () => {
     return(
-      <footer className="footer">
-      <div className="box-imageFooter">
-        <img src={Logo} alt="Logo Girls code"/>
-      </div>
+      <footer id="footer" className="footer">
+
+        <div className="main-container-footer">
 
       <div className="container-footer">
+
+        <div className="box-imageFooter">
+          <img src={Logo} alt="Logo Girls code"/>
+        </div>
+
 
         <div className="box-sobreNos">
           <h4 className="title-footer">Girls Code</h4>
@@ -27,9 +32,17 @@ const Footer = () => {
           <h4 className="title-footer">Nossas redes sociais:</h4>
           <p className="paragraph-footer">girlscode@gmail.com</p>
         </div>
+
       </div>
-     
-      <span className="span-copy">&copy; Girls code 2020</span>
+
+        <div className="box-connections">
+           <img className="image-connections" src={imageConnetions} alt="Mulheres conectadas"/>
+           <h3 className="title-connections">Conectamos mulheres s2</h3>
+        </div>
+
+        </div>
+
+        <span className="span-copy">&copy; Girls code 2020</span>
     </footer>
 
     )

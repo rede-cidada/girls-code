@@ -1,5 +1,5 @@
 .header {
-    background-color: #855298;
+    background-color: #A3679A;
     
   
     width: 100vw;
@@ -13,6 +13,7 @@
     padding: 10px;
 
     position: fixed;
+    z-index: 1;
     
   }
   .navegation {
@@ -42,7 +43,6 @@
   }
   
   .menu {
-    background: #FFC864;
     border-radius: 50%;
   
     cursor: pointer;
@@ -50,7 +50,7 @@
     width: 45px;
     position: absolute;
     right: 25px;
-    top: 13px;
+    top: 9px;
     transition: box-shadow 1.1s cubic-bezier(0.19, 1, 0.22, 1);
     padding: 2px;
   
@@ -63,7 +63,7 @@
     left: 10.5px;
     width: 20px;
     height: 2px;
-    background: #24285B;
+    background: #fff;
     display: block;
     transform-origin: center;
     transition: 0.5s ease-in-out;
@@ -72,7 +72,7 @@
   
   .menu-btn:after,
   .menu-btn:before {
-    background: #24285B;
+    background: #fff;
     content: "";
     display: block;
     transition: 0.5s ease-in-out;
@@ -130,14 +130,14 @@
   }
   
   .navegation ul li a {
-    color: #ffc864;
+    color: #fff;
     display: block;
     margin-bottom: 1em;
     text-decoration: none;
   }
   
   .navegation ul li a:hover {
-    color: black;
+    color: #E9DEFF;
   }
 
   @media (min-width: 900px) {

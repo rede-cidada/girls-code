@@ -7,7 +7,7 @@
 
 }
 .box-guia {
-    background: #ae8cbb;
+    background: #713568;
     width: 100%;
     height: 50vh;
     display: flex;
@@ -17,25 +17,34 @@
     
   }
   .box-guia-style {
-    background: #24285B;
+    background: #544F77;
   }
   .paragraph-guia {
     padding: 0 10px;
     width: 20rem;
+    color: #fff;
+    font-size: 1.1rem;
   }
   
   .link-guia {
     display: inline-block;
-    background: #FFC864;
+    background: transparent;
     width: 12rem;
     height: 3rem;
     padding: 13px;
     margin-top: 2rem;
     text-transform: uppercase;
     font-weight: bold;
-    color: #24285B;
+    color: #fff;
+    opacity: 0.6;
     letter-spacing: 1px;
     border-radius: 3px;
+    border: 2px solid #fff;
+  }
+
+  .link-guia:hover {
+    opacity: 1;
+    transition: 0.4s;
   }
 
   @media (min-width: 700px) {

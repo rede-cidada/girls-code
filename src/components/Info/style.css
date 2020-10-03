@@ -4,27 +4,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    background: #e5e5e5;
+    flex-direction: column-reverse;
+    background: #E9DEFF;
 }
 .image-superWoman {
-    width: 20rem;
+    width: 330px;
+    margin-top: 1rem;
 }
 
 .title-info {
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-transform: uppercase;
+    color: #A3679A;
 }
 .box-info {
     margin-top: 2rem;
 }
 .paragraph-info {
     padding: 20px 30px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    color: #544F77;
+    font-weight: 600;
 }
-.teste {
+.span-info {
     text-transform: lowercase;
 }
+
 
 @media (min-width: 700px) {
     .info {
@@ -32,10 +37,10 @@
         justify-content: space-evenly;
     }
     .image-superWoman {
-        width: 35rem;
+        width: 30rem;
     }
     .title-info {
-        font-size: 2.7rem;
+        font-size: 3rem;
         text-align: left;
     }
     .paragraph-info {
