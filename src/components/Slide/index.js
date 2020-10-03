@@ -31,7 +31,7 @@ const dadosGenero = [
 
     {
         endereco: `${imgViolence}`,
-        descricao: 'Desde pequenas, somos condicionadas aos cuidados da casa, enquanto os homens recebem estímulos para salvar o mundo e interagir com tecnologia'
+        descricao: 'Desde pequenas, somos condicionadas aos cuidados da casa, enquanto os homens recebem estímulos para salvar o mundo e interagir com tecnologia.'
     }
 ];
 

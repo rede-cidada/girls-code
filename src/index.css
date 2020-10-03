@@ -5,12 +5,13 @@
   text-decoration: none;
 }
 
-body {
+html,body {
   width: 100%;
   height: 100%;
-  font-family: 'Rubik',sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 code {
-  font-family: 'Rubik',sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }

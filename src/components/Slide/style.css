@@ -1,5 +1,5 @@
 .slide {
-    background: #e6d3cd;
+    background: #544F77;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -20,9 +20,9 @@
 .descricao-img {
     padding: 0 30px;
     margin-top: 1.2rem;
-    color: #455A64;
+    color: #fff;
     letter-spacing: 1px;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     font-weight: bold;
 }
 
