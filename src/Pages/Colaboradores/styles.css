@@ -1,0 +1,124 @@
+.colaboradores {
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+    width: 100%;
+  }
+
+  
+  .container {
+    background: #a3679a;
+  
+    width: 90%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 7rem;
+
+    
+  }
+
+  .colaboradores-text {
+    background: #fff;
+
+    margin: 0 auto 15px auto;
+  }
+
+  .colaboradores-text h1 {
+    font-size: 2.6rem;
+    color: #a3679a;
+  }
+
+  .colaboradores-text p {
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  .colaboradores-main {
+    border: 4px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .card {
+
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 14rem;
+    height: 20rem;
+    margin: 15px auto 15px auto;
+  
+    border-radius: 5px;
+    border: 3px solid green;
+  }
+  
+  .info {
+
+    background: transparent;
+    
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 4px solid red;
+  }
+  
+  
+  .info img {
+
+    width: 7rem;
+    border-radius: 50%;
+
+    margin: 10px auto;
+  }
+
+  .info .colaboradores-nome {
+    margin: 0 auto 10px auto;
+    color: #ff907d;
+  }
+
+  
+  .contatos {
+    border: 3px solid orange;
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contatos p {
+    font-size: 0.9rem;
+    width: rem;
+  }
+  button {
+    width: 4rem;
+    padding: 2px;
+    margin: 5px;
+    font-weight: 600;
+  
+    background-color: #ff907d;
+    color: #fff;
+    cursor: pointer;
+  
+    border-radius: 10px;
+    border: transparent;
+  }
+
