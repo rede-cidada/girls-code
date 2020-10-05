@@ -10,7 +10,8 @@ const InternetPage = () => {
       </section>
 
       <section className="internet-video">
-        <iframe 
+        <iframe
+        title="Como a internet funciona"
         width="100%" 
         height="300" 
         src="https://www.youtube.com/embed/HNQD0qJ0TC4?list=PLQq8-9yVHyOYMFAc9v7Yb_cqmNMksEdrk" 
