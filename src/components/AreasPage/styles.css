@@ -1,12 +1,12 @@
-.container-area {
+.container-areas {
 
     width: 100%;
-    background-color: #24285b;
+    background-color: #2d3161;
     color: #ffc864;
     
 }
 
-.container-area ul li {
+.container-areas ul li {
 
     list-style: none;
     
@@ -15,28 +15,43 @@
 
     margin: 15px auto auto auto;
 }
-
-.container-area img {
+.container-areas h2 {
+    font-size: 2rem;
+}
+.container-areas img {
     width: 20rem;
 }
+
+.backend,
+.frontend {
+        padding: 30px;
+    }
 
 .frontend {
 
     text-align: center;
-   
 
 }
 
 @media (min-width: 900px) {
 
-    .container-area {
+    .container-areas {
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
     }
 
-    .container-area img {
+    .container-areas img {
       width: 30rem;
+    }
+
+    .backend,
+    .frontend {
+        margin: 0px 0 50px 0;
+    }
+
+    .container-areas ul li {
+        font-size: 1.1rem;
     }
 }

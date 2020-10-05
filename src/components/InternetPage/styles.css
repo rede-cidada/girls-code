@@ -1,8 +1,6 @@
 .internet-area {
 
     width: 100%;
-    
-
 
 }
 
@@ -43,7 +41,7 @@
 
     .internet-texto {
         width: 45rem;
-        margin: 0px 0px 55px 0px;
+        margin: 35px 0px 55px 0px;
         
     }
 
@@ -55,6 +53,8 @@
     .internet-texto p {
         margin: 25px 0px 0px 0px;
         font-size: 1.3rem;
+
+        font-weight: bold;
 
         
     }

@@ -1,5 +1,6 @@
 .page-section {
-    width: 100%;
+
+    width: 100vw;
     height: 100vh;
   
     background-color: #ffc864;
@@ -38,6 +39,11 @@
   
     .text-info {
       width: 35rem;
+    }
+
+    .text-info h1 {
+      font-size: 3rem;
+      
     }
   }
   
