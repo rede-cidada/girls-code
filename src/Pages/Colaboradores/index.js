@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+import Grupes from "../../components/Grupes";
+
 import "./styles.css";
 
 const Profissoes = ['Dev. Front End', 'Dev. Full Stack', 'Dev. Back End', 'Analista de Sistemas', 'Engenheira de Software'];
@@ -55,8 +57,16 @@ const Colaboradores = () => {
           ))}
         </div>
 
+        <div className="register-box">
+          <h3>Quer </h3>
+        </div>
+
       </div>
+      < Grupes />
     </div>
+
+    
+    
   );
 };
 
