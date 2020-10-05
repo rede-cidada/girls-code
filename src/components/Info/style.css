@@ -18,11 +18,11 @@
     color: #A3679A;
 }
 .box-info {
-    margin-top: 2rem;
+    margin: 2rem 2rem 0;
 }
 .paragraph-info {
     padding: 20px 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #544F77;
     font-weight: 600;
 }
@@ -46,6 +46,14 @@
     .paragraph-info {
         text-align: left;
         padding-left: 0;
+        width: 20rem;
+    }
+}
+@media (min-width: 1070px) {
+    .title-info {
+        font-size: 3.5rem;
+    }
+    .paragraph-info {
         width: 30rem;
     }
 }

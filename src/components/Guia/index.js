@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 export const Guia = () => {
   return (
     <section className="section-guia">
+      <h2 className="title-guia">Se liga mulher!</h2>
+
+      <div className="teste">
       <div className="box-guia">
         <p className="paragraph-guia">
           Aqui tu encontra o nosso mini guia sobre essa área e indicações de cursos gratuitos pra tu conhecer esse universo lindo.
@@ -21,6 +24,7 @@ export const Guia = () => {
         <Link to={`/colaboradores`} className="link-guia">
           Colaboradores
         </Link>
+      </div>
       </div>
     </section>
   );
