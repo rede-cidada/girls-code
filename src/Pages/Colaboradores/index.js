@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+import Grupes from "../../components/Grupes";
+
 import "./styles.css";
 
 const Profissoes = ['Dev. Front End', 'Dev. Full Stack', 'Dev. Back End', 'Analista de Sistemas', 'Engenheira de Software'];
@@ -12,7 +14,7 @@ const Colaboradores = () => {
   useEffect(() => {
     const getData = async () => {
       const dataResponse = await axios.get(
-        "https://randomuser.me/api/?results=10&gender=female"
+        "https://randomuser.me/api/?results=11&gender=female"
       );
 
       const data = await dataResponse.data.results;
@@ -49,14 +51,22 @@ const Colaboradores = () => {
               <div className="contatos">
                 <p className="mail">{item.email}</p>
                 <p>{item.phone}</p>
-                <button>contato</button>
+   
               </div>
             </div>
           ))}
         </div>
 
+        <div className="register-box">
+          <h3>Quer </h3>
+        </div>
+
       </div>
+      < Grupes />
     </div>
+
+    
+    
   );
 };
 
