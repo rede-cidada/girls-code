@@ -4,7 +4,6 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
-import Routes from './routes';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home';
