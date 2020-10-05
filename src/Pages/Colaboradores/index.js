@@ -12,7 +12,7 @@ const Colaboradores = () => {
   useEffect(() => {
     const getData = async () => {
       const dataResponse = await axios.get(
-        "https://randomuser.me/api/?results=10&gender=female"
+        "https://randomuser.me/api/?results=11&gender=female"
       );
 
       const data = await dataResponse.data.results;
@@ -49,7 +49,7 @@ const Colaboradores = () => {
               <div className="contatos">
                 <p className="mail">{item.email}</p>
                 <p>{item.phone}</p>
-                <button>contato</button>
+   
               </div>
             </div>
           ))}
