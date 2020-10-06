@@ -6,10 +6,13 @@ import logoIcon from "../../assets/nova-logo.svg";
 import { Link } from 'react-router-dom';
 
 
+
+
 const Header = () => {
+
   return (
     <header className="header">
-      <img src={logoIcon} alt="logo" className="logo-header" />
+      <Link to="/"><img src={logoIcon} alt="logo" className="logo-header" /></Link>
 
       <nav className="navegation">
 
@@ -30,9 +33,6 @@ const Header = () => {
           <li>
             <Link to="/colaboradores">Colaboradores</Link>
        </li>
-          <li>
-            <a href="#sobre">Sobre</a>
-          </li>
           <li>
             <a href="#footer">Contato</a>
           </li>

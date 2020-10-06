@@ -15,6 +15,7 @@
 
 .internet-texto p {
     font-size: 1.2rem;
+    font-weight: bold;
     margin: 10px 7px 15px 7px;
 
     color: #855298;;
@@ -54,9 +55,6 @@
         margin: 25px 0px 0px 0px;
         font-size: 1.3rem;
 
-        font-weight: bold;
-
-        
     }
     .internet-video {
 

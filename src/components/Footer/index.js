@@ -3,6 +3,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import "../Footer/style.css";
 import Logo from "../../assets/nova-logo.svg";
 import imageConnetions from "../../assets/conects-woman.svg";
+import heartImage from "../../assets/heart.svg";
 
 
 const Footer = () => {
@@ -20,7 +21,7 @@ const Footer = () => {
 
         <div className="box-sobreNos">
           <h4 className="title-footer">Girls Code</h4>
-          <a className="link-sobre" href="/">Sobre nós</a>
+          <p className="paragraph-sobre">Conectando mulheres <span><img className="heart-icon" src={heartImage} alt=""/></span></p>
         </div>
 
         <div className="box-contato">
@@ -37,7 +38,6 @@ const Footer = () => {
 
         <div className="box-connections">
            <img className="image-connections" src={imageConnetions} alt="Mulheres conectadas"/>
-           <h3 className="title-connections">Conectamos mulheres s2</h3>
         </div>
 
         </div>

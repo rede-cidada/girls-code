@@ -5,91 +5,71 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-  
     width: 100%;
   }
 
   
   .container {  
     width: 90%;
-  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    margin-top: 7rem;
-
-    
+    margin-top: 7rem;    
   }
 
   .colaboradores-text {
     background: #fff;
-
     margin: 0 auto 15px auto;
   }
 
   .colaboradores-text h1 {
     font-size: 2.6rem;
     color: #a3679a;
-
     font-weight: bolder;
   }
 
   .colaboradores-text p {
     font-size: 1rem;
     margin: 10px;
+    font-weight: 500;
+    color: #2C2637;
   }
 
   .colaboradores-main {
-    /* border: 4px solid yellow; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    
   }
   
   .card {
-
     background: #fff;
     color: #544f77;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-  
+    justify-content: center;
     width: 15rem;
     height: 18rem;
     margin: 15px auto 15px auto;
-  
     border-radius: 5px;
-    /* border: 3px solid green; */
-
-    -webkit-box-shadow: 3px 5px 5px 0px rgba(156,148,156,1);
-    -moz-box-shadow: 3px 5px 5px 0px rgba(156,148,156,1);
-    box-shadow: 3px 5px 5px 0px rgba(156,148,156,1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
   }
   
   .info-colaboradores {
     padding: 10px;
     background: transparent;
-    
-  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    /* border: 4px solid red; */
   }
   
   
   .info-colaboradores img {
-
     width: 7rem;
     border-radius: 50%;
-
     margin: 10px auto;
   }
 
@@ -97,13 +77,10 @@
     margin: 0 auto 10px auto;
     color: #ff907d;
   }
-
   
   .contatos {
-    /* border: 3px solid orange; */
     width: 100%;
     margin-top: 10px;
-  
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,7 +89,6 @@
   
   .contatos p {
     font-size: 0.8rem;
-    
   }
 
 
@@ -131,7 +107,7 @@
     .card {
       width: 17rem;
       height: 19rem;
-      margin: 30px;
+      margin: 2rem;
     }
 
     .contatos p {
