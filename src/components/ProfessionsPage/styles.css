@@ -15,7 +15,7 @@
 
     margin: 5px 0px 15px 0px;
 
-    font-size: 2.3rem;
+    font-size: 1.7rem;
 
 }
 
@@ -27,7 +27,7 @@
 
 .profe-text p {
     margin: 5px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .profe-list ul {
@@ -40,7 +40,7 @@
 
 .profe-list ul li h3 {
     margin: 0px 0px 15px 0px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 
     background-color: #855298;
     color: #ffc864;
@@ -55,15 +55,15 @@
 }
 
 .profe-list ul li p {
-
-    font-size: 1.1rem;
+    padding: 10px 0;
+    font-size: 1.2rem;
     line-height: 1.4;
     font-weight: 500;
 }
 
 @media (min-width: 900px) {
     .profe-text h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .profe-list {
@@ -72,7 +72,7 @@
     }
 
     .profe-list ul li h3 {
-        font-size: 20px;
+        font-size: 1.3rem;
         margin: 20px;
     }
 
@@ -80,7 +80,7 @@
 
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
+        
         justify-content: center;
         
     }
@@ -89,6 +89,10 @@
 
         width: 30rem;
         margin: 10px;
-        font-size: 20px;
+    }
+
+    .more-info {
+        font-size: 1.5rem;
+        
     }
 }

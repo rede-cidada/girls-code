@@ -1,42 +1,46 @@
-.container-area {
 
+.container-areas {
     width: 100%;
-    background-color: #24285b;
+    background-color: #2d3161;
     color: #ffc864;
-    
 }
 
-.container-area ul li {
-
+.container-areas ul li {
     list-style: none;
-    
-
     width: 20rem;
-
-    margin: 15px auto auto auto;
+    margin: 15px auto;
+    padding: 5px 10px;
+    font-size: 1rem;
 }
 
-.container-area img {
+.container-areas h2 {
+    font-size: 1.7rem;
+}
+
+.container-areas img {
     width: 20rem;
 }
 
-.frontend {
-
-    text-align: center;
-   
-
-}
 
 @media (min-width: 900px) {
 
-    .container-area {
+    .container-areas {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        height: 100vh;
     }
 
-    .container-area img {
-      width: 30rem;
+    .container-areas img {
+      width: 20rem;
+    }
+
+
+    .backend,
+    .frontend {
+        margin: 0 40px;
+    }
+
+    .container-areas ul li {
+        font-size: 1.1rem;
     }
 }

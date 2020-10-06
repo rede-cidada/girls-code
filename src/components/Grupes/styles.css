@@ -1,0 +1,102 @@
+.grupe-container {
+    width: 100%;
+    background-color: #FFC864;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grupe-text {
+    width: 90%;
+}
+
+.grupe-text h2 {
+    font-size: 1.6rem;
+    margin: 25px auto 25px auto;
+}
+
+.grupe-text p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+
+    margin: 10px auto 25px auto;
+}
+
+.rotine-info span {
+    text-transform: uppercase;
+    
+}
+
+.rotine-info {
+    font-weight: bold;
+    color: #1A3059;
+
+}
+.btn-grupes {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.first-btn-grupes,
+.second-btn-grupes {
+    
+
+    margin: 10px 5px 13px 5px;
+}
+
+.btn-grupes button {
+
+    width: 10rem;
+    height: 2.2rem;
+    border-radius: 25px;
+
+    margin: 15px auto;
+
+    background-color: #24285b;
+    border: transparent;
+    color: #ff907d;
+
+    font-size: 1.2rem;
+    font-weight: bolder;
+
+}
+
+.btn-grupes p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn-grupes button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media (min-width: 900px) {
+    .grupe-container {
+        
+        flex-direction: row;
+        
+    }
+
+    .grupe-text {
+        
+        width: 50%;
+
+        margin: 15px 25px 15px auto;
+    }
+
+    .btn-grupes {
+        width: 50%;
+    }
+
+    .grupe-text h2 {
+        font-size: 2rem;
+    }
+
+}

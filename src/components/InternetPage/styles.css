@@ -1,8 +1,5 @@
 .internet-area {
-
     width: 100%;
-    
-
 
 }
 
@@ -11,29 +8,28 @@
 }
 
 .internet-texto h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 10px;
 }
 
 .internet-texto p {
     font-size: 1.2rem;
-    margin: 10px 7px 15px 7px;
+    padding: 10px;
 
     color: #855298;;
 }
 
 .internet-video {
-    margin: 50px 7px 10px 7px;
+    padding: 30px 10px;
 }
 
 .internet-video p {
     font-size: 1.2rem;
-    margin: 50px 7px 0px 7px;
+    padding: 40px 10px;
 }
 
 @media (min-width: 900px) {
     .internet-area {
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -43,26 +39,30 @@
 
     .internet-texto {
         width: 45rem;
-        margin: 0px 0px 55px 0px;
+        margin: 35px 0px 55px 0px;
         
     }
 
     .internet-texto h2 {
-        font-size: 3.5rem;
-        padding: 0;
+        font-size: 3rem;
     }
 
     .internet-texto p {
-        margin: 25px 0px 0px 0px;
-        font-size: 1.3rem;
+        margin: 25px 0px;
+        font-size: 1.7rem;
 
-        
+        font-weight: bold;  
     }
+
     .internet-video {
 
         width: 50%;
         height: 50%;
 
         margin: 0px 0px 70px 0px;
+    }
+
+    .internet-video p {
+        font-size: 1.5rem;
     }
 }

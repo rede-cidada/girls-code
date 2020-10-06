@@ -6,7 +6,7 @@ import BackFigure from '../../assets/backend_figure.svg';
 
 const AreasPage = () => {
     return (
-        <div className="container-area">
+        <div className="container-areas">
 
             <section className="frontend">
 
