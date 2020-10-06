@@ -17,13 +17,8 @@
   }
   
   .text-info h1 {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     padding: 20px;
-  }
-  
-  .text-info p {
-    font-size: 1.2rem;
-    padding: 10px;
   }
   
   @media (min-width: 900px) {

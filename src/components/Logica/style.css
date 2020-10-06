@@ -1,0 +1,40 @@
+.logica-area {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background: #ff907d;
+  }
+  
+  .logica-text h2 {
+    font-size: 30px;
+    padding: 50px;
+  }
+  
+  .logica-text p {
+    font-size: 20px;
+  }
+  
+  .logica-area {
+    width: 99vw;
+    
+  }
+  
+  @media (min-width: 900px) {
+    .logica-area {
+      width: 100%;
+      height: 100%;
+      margin:  auto;
+    
+    }
+
+    li{
+        list-style: none;
+    }
+  
+    .logica-text,
+    .segundaArea {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  

@@ -1,5 +1,4 @@
-import React from 'react'
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import React from 'react';
 import "../Footer/style.css";
 import Logo from "../../assets/nova-logo.svg";
 import imageConnetions from "../../assets/conects-woman.svg";

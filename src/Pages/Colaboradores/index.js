@@ -6,7 +6,7 @@ import Grupes from "../../components/Grupes";
 import "./styles.css";
 
 const Profissoes = ['Dev. Front End', 'Dev. Full Stack', 'Dev. Back End', 'Analista de Sistemas', 'Engenheira de Software'];
-const sort = Math.floor(Math.random() * (Profissoes.length - 1));
+const sort = Math.floor(Math.random() * (Profissoes.length - 1 ));
 
 const Colaboradores = () => {
   const [dados, setDados] = useState([]);

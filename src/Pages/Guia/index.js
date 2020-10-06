@@ -4,6 +4,8 @@ import PageOne from '../../components/PageOne';
 import InternetPage from '../../components/InternetPage';
 import ProfessionsPage from '../../components/ProfessionsPage';
 import AreasPage from '../../components/AreasPage';
+import Logica from '../../components/Logica';
+import Cursos from '../../components/cursos';
 
 
 const Guia = () => {
@@ -16,6 +18,8 @@ const Guia = () => {
             <InternetPage />
             <ProfessionsPage />
             <AreasPage />
+            <Logica />
+            <Cursos />
         </div>
 
     )

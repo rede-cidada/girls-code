@@ -55,7 +55,7 @@ const Slide = () => {
                 {dados && (
                     <>
                         <div className="slide-image">
-                            <img className="img-dados" src={dados[page].endereco} />
+                            <img className="img-dados" src={dados[page].endereco} alt="dados relacionados"/>
                         </div>
 
                         <div className="slide-text">
@@ -66,8 +66,8 @@ const Slide = () => {
             </div>
 
             <div className="container-btn">
-                    <button className="btn" onClick={() => volta(page)}><img src={leftArrow} className="image-arrow" /></button>
-                    <button className="btn" onClick={() => avançar(page)}><img src={rightArrow} className="image-arrow" /></button>
+                    <button className="btn" onClick={() => volta(page)}><img src={leftArrow} className="image-arrow" alt="voltar"/></button>
+                    <button className="btn" onClick={() => avançar(page)}><img src={rightArrow} className="image-arrow" alt="avançar"/></button>
             </div>
         </section>
     )
