@@ -1,0 +1,159 @@
+.cursos-area {
+    width: 100vw;
+    height: 100%;
+    background: #ff907d;
+  }
+  
+  .cursos-text h2 {
+    font-size: 30pt;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    width: 10rem;
+  }
+  
+  .reprograma {
+    border: none;
+    border-radius: 10px;
+    background-color: #a020f0;
+    color: #dcdcdc;
+    cursor: pointer;
+    font-size: 10pt;
+  }
+  .reprograma a {
+    text-decoration: none;
+    color: #dcdcdc;
+  }
+  
+  .programaria {
+    color: #8a2be2;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 10pt;
+  }
+  
+  .programaria a {
+    text-decoration: none;
+    color: #8a2be2;
+  }
+  span {
+    color: #00ced1;
+  }
+  
+  .laborato {
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 10pt;
+  }
+  .laborato a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .seta {
+    color: #ffff00;
+  }
+  
+  .pyladies {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #00008b;
+    font-size: 10pt;
+  }
+  
+  .pyladies a {
+    text-decoration: none;
+    color: #00008b;
+  }
+  .minas {
+    background-color: #836fff;
+    color: #f8f8ff;
+    font-size: 10pt;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .minas a {
+    text-decoration: none;
+    color: #f8f8ff;
+  }
+  
+  .codena {
+    background-color: #4b0082;
+    color: #4169e1;
+    font-size: 10pt;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+  }
+  .codena a {
+    text-decoration: none;
+    color: #4169e1;
+  }
+  
+  .quebra {
+    background-color: #363636;
+    color: #f8f8ff;
+    font-size: 10pt;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .quebra a {
+    text-decoration: none;
+    color: #f8f8ff;
+  }
+  .cursos-text p {
+    font-size: 20px;
+  }
+  
+  img {
+    width: 50px;
+  }
+  
+  .lista-cursos {
+    width: 100%;
+    height: 15vh;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  
+  @media (min-width: 200px) {
+    .lista-cursos {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .lista-cursos {
+      width: 70%;
+      height: 100%;
+      margin: auto;
+  
+      margin-top: 20px;
+      display: block;
+    }
+    button {
+      padding: 5px;
+      margin: auto 20px 5px 90px;
+      margin-top: 20px;
+      width: 130px;
+    }
+  
+    .cursos-text {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+  
