@@ -1,14 +1,16 @@
 
 .container-areas {
     width: 100%;
-    background-color: #2d3161;
+    height: 100%;
+    background-color: #544F77;
     color: #ffc864;
+    padding-bottom: 2rem;
 }
 
 .container-areas ul li {
     list-style: none;
     width: 20rem;
-    margin: 15px auto;
+    margin: 0 auto;
     padding: 5px 10px;
     font-size: 1rem;
 }

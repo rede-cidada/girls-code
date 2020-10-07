@@ -25,7 +25,7 @@ const Cursos = () => {
 
           <button className="programaria">
             <a href="https://www.programaria.org/" target="_blanck">
-              Progra <span>&#123;M&#125;</span>aria
+              Progra<span>&#123;M&#125;</span>aria
             </a>{" "}
           </button>
 

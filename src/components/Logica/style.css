@@ -6,16 +6,32 @@
   }
   
   .logica-text h2 {
-    font-size: 30px;
-    padding: 50px;
+    font-size: 2rem;
+    padding: 15px;
+    color: #1A3059;
+  }
+
+  .logica-text h3 {
+    padding: 10px 0;
+    color: #1A3059;
+  }
+
+  .logica-text a {
+    color: purple;
   }
   
   .logica-text p {
-    font-size: 20px;
+    padding: 10px 0;
+    color: #2C2637;
+    font-size: 1.1rem;
+  }
+
+  .logica-text ul li {
+    color: #2C2637;
   }
   
   .logica-area {
-    width: 99vw;
+    width: 100%;
     
   }
   
@@ -25,6 +41,14 @@
       height: 100%;
       margin:  auto;
     
+    }
+
+    .logica-text p {
+      font-size: 1.2rem;
+    }
+
+    .logica-text ul li {
+      font-size: 1.2rem;
     }
 
     li{
