@@ -11,7 +11,6 @@
   .box-imageFooter {
     margin-bottom: 2rem;
     display: flex;
-    /* margin-left: 3rem; */
   }
   .container-footer {
     margin-top: 1rem;
@@ -35,7 +34,7 @@
     opacity: 0.8;
   }
 
-  .link-sobre {
+  .paragraph-sobre {
     margin-top: 1rem;
     color: #fff;
   }
@@ -75,6 +74,10 @@
   justify-content: space-between;
   width: 100%;
   align-items: center;
+}
+.heart-icon {
+  width: 16px;
+  vertical-align: middle;
 }
   
 @media (min-width: 700px) {

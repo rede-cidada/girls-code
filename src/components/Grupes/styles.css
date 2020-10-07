@@ -15,14 +15,16 @@
 
 .grupe-text h2 {
     font-size: 1.6rem;
-    margin: 25px auto 25px auto;
+    margin: 2rem 0 0;
+    color: #2C2637;
 }
 
 .grupe-text p {
     font-size: 1.2rem;
     line-height: 1.4;
-
-    margin: 10px auto 25px auto;
+    margin: 2rem 0 0;
+    color: #2C2637;
+    font-weight: 500;
 }
 
 .rotine-info span {
@@ -38,6 +40,7 @@
 .btn-grupes {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
 
     align-items: center;
     justify-content: center;
@@ -47,56 +50,60 @@
 .second-btn-grupes {
     
 
-    margin: 10px 5px 13px 5px;
+    padding: 1rem;
 }
 
-.btn-grupes button {
+.links-groups {
 
     width: 10rem;
-    height: 2.2rem;
-    border-radius: 25px;
-
-    margin: 15px auto;
-
-    background-color: #24285b;
+    height: 3rem;
+    border-radius: 3px;
+    margin: 2rem auto;
+    background-color: #3D3769;
     border: transparent;
-    color: #ff907d;
-
+    color: #fff;
     font-size: 1.2rem;
     font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
 
 }
 
 .btn-grupes p {
     font-size: 1.2rem;
     font-weight: bold;
+    color: #2C2637;
 }
 
 .btn-grupes button:hover {
-    cursor: pointer;
-    opacity: 0.8;
+    background: transparent;
+    border: 2px solid #1A3059;
+    color: #1A3059;
+    
 }
 
 @media (min-width: 900px) {
     .grupe-container {
-        
         flex-direction: row;
-        
+        padding: 40px;
     }
 
     .grupe-text {
-        
         width: 50%;
-
-        margin: 15px 25px 15px auto;
     }
 
     .btn-grupes {
         width: 50%;
     }
+    .btn-grupes p {
+        width: 25rem;
+    }
 
     .grupe-text h2 {
         font-size: 2rem;
+        margin: 0;
     }
-
+ 
 }

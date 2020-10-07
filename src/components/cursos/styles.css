@@ -1,0 +1,74 @@
+.cursos-area {
+    width: 100%;
+    height: 100%;
+    background: #ffc864;
+  }
+  
+  .cursos-text h2 {
+    font-size: 1.7rem;
+    padding: 10px;
+  }
+
+  .lista-cursos {
+    display: flex;
+    align-items: center;
+  }
+
+  .cursos-text {
+    color: #2C2637;
+    padding: 5px 5px;
+  }
+  
+  .lista-cursos button {
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    height: 1.5rem;
+    width: 12rem;
+    background: #855298;
+  }
+
+  .lista-cursos button a span {
+    color: #00ced1;
+  }
+  .lista-cursos button a {
+    color: thistle;
+  }
+
+  .lista-cursos .quebra {
+    margin-bottom: 2.5rem;
+  }
+  
+
+  @media (min-width: 200px) {
+    .lista-cursos {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (min-width: 800px) {
+    .lista-cursos {
+      width: 70%;
+      height: 100%;
+      margin: auto;
+  
+      margin-top: 20px;
+      display: block;
+    }
+    button {
+      padding: 5px;
+      margin: auto 20px 5px 90px;
+      margin-top: 20px;
+      width: 130px;
+    }
+  
+    .cursos-text {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+  

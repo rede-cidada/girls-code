@@ -1,6 +1,6 @@
 .internet-area {
-
     width: 100%;
+    background: #E9DEFF;
 
 }
 
@@ -9,29 +9,28 @@
 }
 
 .internet-texto h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 10px;
+    color: #1A3059;
 }
 
 .internet-texto p {
     font-size: 1.2rem;
-    margin: 10px 7px 15px 7px;
-
-    color: #855298;;
+    color: #855298;
 }
 
 .internet-video {
-    margin: 50px 7px 10px 7px;
+    padding: 30px 10px;
 }
 
 .internet-video p {
     font-size: 1.2rem;
-    margin: 50px 7px 0px 7px;
+    padding: 40px 10px;
+    color: #2C2637;
 }
 
 @media (min-width: 900px) {
     .internet-area {
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -41,28 +40,28 @@
 
     .internet-texto {
         width: 45rem;
-        margin: 35px 0px 55px 0px;
         
     }
 
     .internet-texto h2 {
-        font-size: 3.5rem;
-        padding: 0;
+        font-size: 2.5rem;
     }
 
     .internet-texto p {
-        margin: 25px 0px 0px 0px;
-        font-size: 1.3rem;
-
-        font-weight: bold;
-
-        
+        padding: 20px;
+        font-size: 1.7rem;
+        font-weight: bold;  
     }
+
     .internet-video {
 
         width: 50%;
         height: 50%;
 
-        margin: 0px 0px 70px 0px;
+        margin: 20px;
+    }
+
+    .internet-video p {
+        font-size: 1.5rem;
     }
 }

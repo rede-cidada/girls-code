@@ -6,7 +6,7 @@ import Grupes from "../../components/Grupes";
 import "./styles.css";
 
 const Profissoes = ['Dev. Front End', 'Dev. Full Stack', 'Dev. Back End', 'Analista de Sistemas', 'Engenheira de Software'];
-const sort = Math.floor(Math.random() * (Profissoes.length - 1));
+const sort = Math.floor(Math.random() * (Profissoes.length - 1 ));
 
 const Colaboradores = () => {
   const [dados, setDados] = useState([]);
@@ -30,7 +30,7 @@ const Colaboradores = () => {
       <div className="container">
         <div className="colaboradores-text">
           <h1>Mentoras</h1>
-          <p>O Girls code conta com um time de mentoras voluntárias dispostas a te ajudar nessa nova jornada!</p>
+          <p>A Girls code conta com um time de mentoras voluntárias dispostas a te ajudar nessa nova jornada!</p>
 
         </div>
 
@@ -56,11 +56,6 @@ const Colaboradores = () => {
             </div>
           ))}
         </div>
-
-        <div className="register-box">
-          <h3>Quer </h3>
-        </div>
-
       </div>
       < Grupes />
     </div>

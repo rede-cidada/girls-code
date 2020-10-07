@@ -15,11 +15,14 @@ const menuAtv = (input) => {
   
 }
 
+
+
 const Header = () => {
+
   return (
     
     <header className="header">
-      <img src={logoIcon} alt="logo" className="logo-header" />
+      <Link to="/"><img src={logoIcon} alt="logo" className="logo-header" /></Link>
 
       <nav className="navegation">
 
@@ -35,7 +38,7 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/guia" className="nav-guia">Guias</Link>
+            <Link to="/guia">Guias</Link>
           </li>
           <li>
             <Link to="/colaboradores">Colaboradores</Link>

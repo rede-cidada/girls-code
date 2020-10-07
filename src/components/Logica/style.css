@@ -1,0 +1,64 @@
+.logica-area {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background: #ff907d;
+  }
+  
+  .logica-text h2 {
+    font-size: 2rem;
+    padding: 15px;
+    color: #1A3059;
+  }
+
+  .logica-text h3 {
+    padding: 10px 0;
+    color: #1A3059;
+  }
+
+  .logica-text a {
+    color: purple;
+  }
+  
+  .logica-text p {
+    padding: 10px 0;
+    color: #2C2637;
+    font-size: 1.1rem;
+  }
+
+  .logica-text ul li {
+    color: #2C2637;
+  }
+  
+  .logica-area {
+    width: 100%;
+    
+  }
+  
+  @media (min-width: 900px) {
+    .logica-area {
+      width: 100%;
+      height: 100%;
+      margin:  auto;
+    
+    }
+
+    .logica-text p {
+      font-size: 1.2rem;
+    }
+
+    .logica-text ul li {
+      font-size: 1.2rem;
+    }
+
+    li{
+        list-style: none;
+    }
+  
+    .logica-text,
+    .segundaArea {
+      width: 50%;
+      margin: 0 auto;
+    }
+  }
+  
