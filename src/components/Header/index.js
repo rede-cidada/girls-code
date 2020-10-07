@@ -28,7 +28,7 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/guia">Guias</Link>
+            <Link to="/guia" className="nav-guia" onClick={() => input = true}>Guias</Link>
           </li>
           <li>
             <Link to="/colaboradores">Colaboradores</Link>
