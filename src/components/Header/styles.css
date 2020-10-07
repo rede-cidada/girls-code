@@ -92,6 +92,8 @@
   .navegation input {
     display: none;
   }
+
+  /* menu abrindo */
   
   input:checked ~ label .menu-btn {
     transform: rotate(45deg);
@@ -115,6 +117,15 @@
     opacity: 1;
     visibility: visible;
   }
+
+  /* menu fechando */ 
+  .navegation ul li:active {
+    visibility: hidden;
+  }
+
+  
+
+  /*fim da ação */
   
   .navegation ul {
     position: absolute;
