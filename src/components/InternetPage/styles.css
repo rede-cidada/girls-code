@@ -1,5 +1,6 @@
 .internet-area {
     width: 100%;
+    background: #E9DEFF;
 
 }
 
@@ -10,13 +11,12 @@
 .internet-texto h2 {
     font-size: 1.7rem;
     padding: 10px;
+    color: #1A3059;
 }
 
 .internet-texto p {
     font-size: 1.2rem;
-    padding: 10px;
-
-    color: #855298;;
+    color: #855298;
 }
 
 .internet-video {
@@ -26,6 +26,7 @@
 .internet-video p {
     font-size: 1.2rem;
     padding: 40px 10px;
+    color: #2C2637;
 }
 
 @media (min-width: 900px) {
@@ -39,18 +40,16 @@
 
     .internet-texto {
         width: 45rem;
-        margin: 35px 0px 55px 0px;
         
     }
 
     .internet-texto h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .internet-texto p {
-        margin: 25px 0px;
+        padding: 20px;
         font-size: 1.7rem;
-
         font-weight: bold;  
     }
 
@@ -59,7 +58,7 @@
         width: 50%;
         height: 50%;
 
-        margin: 0px 0px 70px 0px;
+        margin: 20px;
     }
 
     .internet-video p {

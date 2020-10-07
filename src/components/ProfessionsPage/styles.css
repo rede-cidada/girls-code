@@ -1,9 +1,6 @@
 .container-profe {
-
     width: 100%;
-    
     background-color: #ffc864;
-
     padding: 20px;
 }
 
@@ -12,22 +9,20 @@
 }
 
 .profe-text h2 {
-
     margin: 5px 0px 15px 0px;
-
-    font-size: 1.7rem;
-
+    font-size: 1.5rem;
+    color: #1A3059;
 }
 
 .more-info {
     font-size: 1.2rem;
-
     margin: 45px 0px 10px 0px;
 }
 
 .profe-text p {
     margin: 5px;
     font-size: 1.2rem;
+    color: #2C2637;
 }
 
 .profe-list ul {
@@ -35,6 +30,7 @@
 }
 
 .profe-list ul li {
+    color: #2C2637;
     margin: 5px 0px 10px 0px;
 }
 
@@ -72,12 +68,11 @@
     }
 
     .profe-list ul li h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         margin: 20px;
     }
 
     .profe-list ul {
-
         display: flex;
         flex-wrap: wrap;
         
@@ -92,7 +87,7 @@
     }
 
     .more-info {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         
     }
 }
