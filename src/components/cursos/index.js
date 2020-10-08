@@ -58,12 +58,6 @@ const Cursos = () => {
               Codenation{" "}
             </a>{" "}
           </button>
-          <button className="quebra">
-            {" "}
-            <a href="https://quebradev.com.br/" target="_blanck">
-              Quebradev{" "}
-            </a>
-          </button>
         </div>
       </section>
     </div>

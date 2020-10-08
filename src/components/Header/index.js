@@ -6,21 +6,21 @@ import logoIcon from "../../assets/nova-logo.svg";
 
 import { Link } from 'react-router-dom';
 
-const menuAtv = (input) => {
+// const menuAtv = (input) => {
 
-  if (input.checked === true) {
+//   if (input.checked === true) {
 
-    document.getElementById('navbar').disabled = true;
-  }
-  
-}
+//     document.getElementById('navbar').disabled = true;
+//   }
+
+// }
 
 
 
 const Header = () => {
 
   return (
-    
+
     <header className="header">
       <Link to="/"><img src={logoIcon} alt="logo" className="logo-header" /></Link>
 
@@ -42,9 +42,9 @@ const Header = () => {
           </li>
           <li>
             <Link to="/colaboradores">Colaboradores</Link>
-       </li>
+          </li>
           <li>
-            <a href="#sobre" onClick={menuAtv()}>Sobre</a>
+            {/* <a href="#sobre" onClick={menuAtv()}>Sobre</a> */}
           </li>
           <li>
             <a href="#footer">Contato</a>

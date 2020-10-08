@@ -17,7 +17,8 @@
   }
 
   .logica-text a {
-    color: purple;
+    color:  #855298;
+    font-weight: bold;
   }
   
   .logica-text p {
@@ -39,10 +40,8 @@
     .logica-area {
       width: 100%;
       height: 100%;
-      margin:  auto;
     
     }
-
     .logica-text p {
       font-size: 1.2rem;
     }
