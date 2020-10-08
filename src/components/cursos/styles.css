@@ -3,6 +3,10 @@
     height: 100%;
     background: #ffc864;
   }
+
+  .cursos-text p {
+    padding-bottom: 20px ;
+  }
   
   .cursos-text h2 {
     font-size: 1.7rem;
@@ -12,6 +16,9 @@
   .lista-cursos {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
   }
 
   .cursos-text {
@@ -32,38 +39,32 @@
   .lista-cursos button a span {
     color: #00ced1;
   }
+
   .lista-cursos button a {
     color: thistle;
   }
-
-  .lista-cursos .quebra {
-    margin-bottom: 2.5rem;
-  }
   
 
-  @media (min-width: 200px) {
-    .lista-cursos {
-      width: 100%;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-    }
-  }
   
   @media (min-width: 800px) {
-    .lista-cursos {
-      width: 70%;
-      height: 100%;
-      margin: auto;
-  
-      margin-top: 20px;
-      display: block;
+    .cursos-area {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
-    button {
-      padding: 5px;
-      margin: auto 20px 5px 90px;
-      margin-top: 20px;
-      width: 130px;
+    
+    .lista-cursos {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: initial;
+  
+    }
+
+    .lista-cursos button {
+      margin: 10px 10px;
     }
   
     .cursos-text {
