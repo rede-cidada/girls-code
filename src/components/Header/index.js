@@ -1,9 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-
 import logoIcon from "../../assets/nova-logo.svg";
-
 import { Link } from 'react-router-dom';
 
 // const menuAtv = (input) => {
@@ -15,18 +13,15 @@ import { Link } from 'react-router-dom';
 
 // }
 
-
-
 const Header = () => {
 
   return (
-
     <header className="header">
       <Link to="/"><img src={logoIcon} alt="logo" className="logo-header" /></Link>
 
       <nav className="navegation">
 
-        <input id="navbar" type="checkbox"></input>
+        <input id="navbar" type="checkbox"/>
         <label htmlFor="navbar">
           <div className="menu">
             <span className="menu-btn"></span>
@@ -34,15 +29,9 @@ const Header = () => {
         </label>
 
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/guia">Guias</Link>
-          </li>
-          <li>
-            <Link to="/colaboradores">Colaboradores</Link>
-          </li>
+          <Link to="/"><li>Home</li></Link>
+          <Link to="/guia"><li>Guias</li></Link>
+          <Link to="/colaboradores"><li>Colaboradores</li></Link>
           <li>
             {/* <a href="#sobre" onClick={menuAtv()}>Sobre</a> */}
           </li>
@@ -54,7 +43,5 @@ const Header = () => {
     </header>
   );
 };
-
-
 
 export default Header;
