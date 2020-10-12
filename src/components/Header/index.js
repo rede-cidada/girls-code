@@ -44,9 +44,6 @@ const Header = () => {
             <Link to="/colaboradores">Colaboradores</Link>
           </li>
           <li>
-            {/* <a href="#sobre" onClick={menuAtv()}>Sobre</a> */}
-          </li>
-          <li>
             <a href="#footer">Contato</a>
           </li>
         </ul>
