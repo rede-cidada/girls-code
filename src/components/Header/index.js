@@ -6,17 +6,6 @@ import logoIcon from "../../assets/nova-logo.svg";
 
 import { Link } from 'react-router-dom';
 
-// const menuAtv = (input) => {
-
-//   if (input.checked === true) {
-
-//     document.getElementById('navbar').disabled = true;
-//   }
-
-// }
-
-
-
 const Header = () => {
 
   return (
