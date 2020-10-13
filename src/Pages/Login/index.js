@@ -6,10 +6,12 @@ import '../Login/style.css';
 
 
 
+
 const Login = () => {
     useEffect(() => {
         window.scrollTo(0,0);
     }, []);
+
     return (
         <section className="container-login">
           <div className="box-login">
@@ -18,8 +20,8 @@ const Login = () => {
 
               <form className="login-form" action="">
                 
-                <input className="input-form" type="email" placeholder="E-mail" autoComplete="on"/>
-                <input className="input-form input-password" type="password" placeholder="Senha"/>
+                <input className="input-form" type="email" placeholder="E-mail" autoComplete="on" />
+                <input className="input-form input-password" type="password" placeholder="Senha" />
 
               <a className="btn-form" href="#">Cadastrar</a>
 
