@@ -8,7 +8,8 @@ const Logica = () => {
     <div>
       <section className="logica-area">
         <div className="logica-text">
-          <h2>Logica de programação</h2>
+          <h2>Lógica de programação</h2>
+
           <div className="textos-sob">
             <div>
               <h3>Por que estudar Logica de programação?</h3>
@@ -27,6 +28,7 @@ const Logica = () => {
             Click aqui para assistir{" "}
               </a>
             </div>
+
             <div>
               <h3>Mas o que é exatamente lógica da programação?</h3>
               <p>
@@ -36,6 +38,7 @@ const Logica = () => {
             tornar viável a implementação de um programa ou software.{" "}
               </p>
             </div>
+
           </div>
           <h3>Algoritmo</h3>
           <p>
@@ -44,21 +47,6 @@ const Logica = () => {
             roteiro que indica todos os procedimentos necessários para realizar
             algo ou resolver algum problema.{" "}
           </p>
-          <h3>Algoritmo “Batata-frita”</h3>
-          <ul>
-            <li>Pegar as batatas</li>
-            <li>Descascar as batatas</li>
-            <li>Cortar as batatas em tiras</li>
-            <li>Pegar uma panela</li>
-            <li>Colocar óleo na panela</li>
-            <li>Acender o fogo do fogão</li>
-            <li> Colocar a panela com óleo para esquentar</li>
-            <li>Esperar o óleo esquentar</li>
-            <li> Colocar as batatas para fritar</li>
-            <li>Aguardar o tempo ideal até que as batatas estejam fritas</li>
-            <li>Remover as batatas-fritas e servir</li>
-            <li>FIM</li>
-          </ul>
           <h3>Variáveis e Constantes</h3>
           <p>
             Você já deve ter ouvido falar muito sobre variáveis e constantes

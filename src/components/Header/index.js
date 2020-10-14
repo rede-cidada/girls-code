@@ -23,17 +23,20 @@ const Header = () => {
         </label>
 
         <ul>
-          <li>
-            <Link to="/">Home</Link>
+          <li className="teste">
+            <Link className="links-header" to="/">Home</Link>
           </li>
           <li>
-            <Link to="/guia">Guias</Link>
+            <Link className="links-header" to="/guia">Guia</Link>
           </li>
           <li>
-            <Link to="/colaboradores">Colaboradores</Link>
+            <Link className="links-header" to="/colaboradores">Colaboradores</Link>
           </li>
           <li>
-            <a href="#footer">Contato</a>
+            <Link className="links-header" to="/login">Participe</Link>
+          </li>
+          <li>
+            <a className="links-header" href="#footer">Contato</a>
           </li>
         </ul>
       </nav>

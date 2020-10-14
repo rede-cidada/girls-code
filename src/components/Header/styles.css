@@ -140,14 +140,14 @@
     z-index: 2;
   }
   
-  .navegation ul li a {
+  .links-header {
     color: #fff;
     display: block;
     margin-bottom: 1em;
     text-decoration: none;
   }
   
-  .navegation ul li a:hover {
+  .links-header:hover {
     color: #E9DEFF;
   }
 
@@ -168,7 +168,6 @@
         
         cursor: default;
         visibility: hidden;
-        
       }
 
       /* faz o menor normal aparecer no desktop */

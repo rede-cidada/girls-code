@@ -10,11 +10,12 @@
 
 .internet-texto h2 {
     font-size: 1.7rem;
-    padding: 10px;
+    padding-top: 3rem;
     color: #1A3059;
 }
 
 .internet-texto p {
+    padding: 20px;
     font-size: 1.2rem;
     color: #855298;
 }
@@ -48,7 +49,6 @@
     }
 
     .internet-texto p {
-        padding: 20px;
         font-size: 1.7rem;
         font-weight: bold;  
     }
