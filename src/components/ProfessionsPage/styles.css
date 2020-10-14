@@ -9,14 +9,14 @@
 }
 
 .profe-text h2 {
-    margin: 5px 0px 15px 0px;
+    padding-top: 2rem;
     font-size: 1.5rem;
     color: #1A3059;
 }
 
 .more-info {
     font-size: 1.2rem;
-    margin: 45px 0px 10px 0px;
+    padding-bottom: 2rem;
 }
 
 .profe-text p {

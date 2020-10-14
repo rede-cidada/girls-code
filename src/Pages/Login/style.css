@@ -4,18 +4,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://www.reprograma.com.br/assets/img/cursos-03.png) no-repeat;
+    background: url(../../assets/background-login.jpeg) no-repeat;
     background-size: cover;
 }
 .box-login {
-    width: 50rem;
-    height: 70vh;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background: rgba(0,0,0,.7);
 }
 
 .title-login {
-    margin-top: 2rem;
     color: #fff;
+    font-size: 1.3rem;
 }
 
 .description-login {
@@ -24,14 +28,13 @@
 }
 .login-form {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     margin-top: 3rem;
-    position: relative;
+    
 }
 .input-form {
-    width: 80%;
+    width: 20rem;
     padding: 20px;
     border: none;
     outline: none;
@@ -44,23 +47,36 @@
     font-size: 1rem;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+.error {
+    color: #fff;
+
+}
 
 .btn-form {
     display: inline-block;
     background: #A3679A;
+    font-size: 1rem;
     width: 12rem;
     height: 3rem;
     padding: 13px;
-    margin-top: 2rem;
+    margin: 2rem auto 0;
     font-weight: bold;
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     border-radius: 3px;
-    
+    border: 0;
+    cursor: pointer;
+    outline: none;
+}
+.btn-form:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 0.5s;
 }
 
 @media (min-width: 700px) {
     .title-login{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 }

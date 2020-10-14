@@ -13,9 +13,9 @@ const Header = () => {
   return (
 
     <header className="header">
-      <Link to="/"><img src={logoIcon} alt="logo" className="logo-header" /></Link>
+      <Link to="/"><img src={logoIcon} alt="logo" className="logo-header" ></Link>
 
-      <button className="button-hamburguer" onClick={() => setOpen(!open)}>
+      <button className="button-hamburguer" onClick={() => setOpen(!open)} >
           <div className={`menu-btn ${open ? 'one-open' : 'line-close'}`} />
 
           <div className={`menu-btn ${open ? 'two-open' : 'two-close'}`} />
@@ -26,20 +26,25 @@ const Header = () => {
       <nav className={`navegation ${open ? 'nav-show' : ''}`}>
         <ul className="menu-list">
 
-          <li onClick={() => setOpen(false)}>
-            <Link to="/">Home</Link>
+
+          <li onClick={() => setOpen(false)} className="list-links">
+            <Link className="links-header" to="/">Home</Link>
           </li>
 
-          <li onClick={() => setOpen(false)}>
-            <Link to="/guia">Guias</Link>
+          <li onClick={() => setOpen(false)} className="list-links">
+            <Link className="links-header" to="/guia">Guias</Link>
           </li>
 
-          <li onClick={() => setOpen(false)}>
-            <Link to="/colaboradores">Colaboradores</Link>
+          <li onClick={() => setOpen(false)} className="list-links">
+            <Link className="links-header" to="/colaboradores">Colaboradores</Link>
           </li>
 
-          <li onClick={() => setOpen(false)}>
-            <a href="#footer">Contato</a>
+          <li onClick={() => setOpen(false)} className="list-links">
+            <Link className="links-header" to="/login">Participe</Link>
+          </li>
+
+          <li onClick={() => setOpen(false)} className="list-links">
+            <a className="links-header" href="#footer">Contato</a>
           </li>
 
         </ul>

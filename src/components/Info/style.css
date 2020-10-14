@@ -8,7 +8,7 @@
     background: #E9DEFF;
 }
 .image-superWoman {
-    width: 330px;
+    width: 300px;
     margin-top: 1rem;
 }
 
@@ -29,6 +29,26 @@
 .span-info {
     text-transform: lowercase;
 }
+.btn-info {
+    display: inline-block;
+    background: #A3679A;
+    width: 12rem;
+    height: 3rem;
+    padding: 13px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #fff;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+.btn-info:hover {
+    opacity: 0.9;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.9);
+    transition: 0.5s;
+}
 
 
 @media (min-width: 700px) {
@@ -39,6 +59,10 @@
     .image-superWoman {
         width: 30rem;
     }
+    .box-info {
+        display: flex;
+        flex-direction: column;
+    }
     .title-info {
         font-size: 3rem;
         text-align: left;
@@ -47,6 +71,9 @@
         text-align: left;
         padding-left: 0;
         width: 20rem;
+    }
+    .btn-info {
+        margin-top: 1rem;
     }
 }
 @media (min-width: 1070px) {

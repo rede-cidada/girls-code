@@ -5,8 +5,8 @@
     background: #ff907d;
   }
   
-  .logica-text h2 {
-    font-size: 2rem;
+  .logica-area  h2 {
+    font-size: 2.2rem;
     padding: 15px;
     color: #1A3059;
   }
@@ -22,42 +22,41 @@
   }
   
   .logica-text p {
-    padding: 10px 0;
     color: #2C2637;
     font-size: 1.1rem;
-  }
-
-  .logica-text ul li {
-    color: #2C2637;
+    padding-bottom: 10px;
   }
   
-  .logica-area {
-    width: 100%;
-    
-  }
   
   @media (min-width: 900px) {
-    .logica-area {
-      width: 100%;
-      height: 100%;
-    
+
+    .logica {
+      display: flex;
+      justify-content: space-around;
     }
+
+    .logica div {
+      width: 35rem;
+      margin-top: 20px;
+      
+    }
+
+    .logica2 {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .logica2 div {
+      width: 35rem;
+      margin-bottom: 30px;
+    }
+
+
     .logica-text p {
       font-size: 1.2rem;
     }
-
-    .logica-text ul li {
-      font-size: 1.2rem;
-    }
-
-    li{
-        list-style: none;
-    }
   
-    .logica-text,
-    .segundaArea {
-      width: 50%;
-      margin: 0 auto;
-    }
+
   }
   

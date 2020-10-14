@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-
-
+import { useForm } from "react-hook-form";
 
 import '../Login/style.css';
 
@@ -8,6 +7,12 @@ import '../Login/style.css';
 
 
 const Login = () => {
+    const { register, handleSubmit, errors } = useForm();
+
+    const onSubmit = (data) => {
+        console.log("Data submitted: ", data);
+    }
+
     useEffect(() => {
         window.scrollTo(0,0);
     }, []);
@@ -18,12 +23,33 @@ const Login = () => {
               <h3 className="title-login">Cadastre-se na nossa plataforma</h3>
               <p className="description-login">Vem fazer parte desse time de mulheres!</p>
 
-              <form className="login-form" action="">
+              <form className="login-form" action="" onSubmit={handleSubmit(onSubmit)}>
                 
-                <input className="input-form" type="email" placeholder="E-mail" autoComplete="on" />
-                <input className="input-form input-password" type="password" placeholder="Senha" />
+                <input className="input-form" 
+                type="email" placeholder="E-mail" name="email" 
+                ref={register({
+                    required: "Digite seu e-mail",
+                    pattern: {
+                        value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                        message: "Digite um endereço de e-mail válido", 
+                    },
+                })} 
+                />
+                {errors.email && <p className="error">{errors.email.message}</p>}
 
-              <a className="btn-form" href="#">Cadastrar</a>
+                <input className="input-form input-password" 
+                type="password" minlength="8" maxLength="10" name="password" placeholder="Senha"  
+                ref={register({
+                    required: "Digite sua senha",
+                    pattern: {
+                        message: "Digite uma senha válida",
+                    },
+                })} />
+                
+                {errors.password && <p className="error">{errors.password.message}</p>}
+
+             
+              <button className="btn-form"  onClick={onSubmit()} type="submit">Cadastre-se</button>
 
               </form>
           </div>
