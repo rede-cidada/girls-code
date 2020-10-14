@@ -13,7 +13,7 @@ const Header = () => {
   return (
 
     <header className="header">
-      <Link to="/"><img src={logoIcon} alt="logo" className="logo-header" ></Link>
+      <Link to="/"><img src={logoIcon} alt="logo" className="logo-header"/></Link>
 
       <button className="button-hamburguer" onClick={() => setOpen(!open)} >
           <div className={`menu-btn ${open ? 'one-open' : 'line-close'}`} />
