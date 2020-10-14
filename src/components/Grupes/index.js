@@ -17,13 +17,19 @@ const Grupes = () => {
                <div className="btn-grupes">
                    <section className="first-btn-grupes">
                     <p>Grupo para quem tem de 30 á 40 minutos livres para estudo.</p>
-                    <a className="links-groups" href="https://t.me/joinchat/MaoaZlLYENJFa8hQ1gU7qw" target="_blank">Vamos lá!</a>
+                    <a className="links-groups"
+                     href="https://t.me/joinchat/MaoaZlLYENJFa8hQ1gU7qw"
+                      target="_blank"
+                      rel="noopener noreferrer" >Vamos lá!</a>
 
                    </section>
 
                    <section className="second-btn-grupes">
                     <p>Grupo para quem tem de 60 minutos á 1 hora e meia para estudo.</p>
-                    <a className="links-groups" href="https://t.me/joinchat/MaoaZlLYENJFa8hQ1gU7qw" target="_blank">Bora!</a>
+                    <a className="links-groups"
+                     href="https://t.me/joinchat/MaoaZlLYENJFa8hQ1gU7qw" 
+                     target="_blank"
+                     rel="noopener noreferrer" >Bora!</a>
                     
                    </section>
                    

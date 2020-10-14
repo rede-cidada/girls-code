@@ -1,7 +1,5 @@
 .header {
     background-color: #A3679A;
-    
-  
     width: 100%;
     height: 4rem;
     
@@ -13,15 +11,11 @@
     padding: 10px;
 
     position: fixed;
-    z-index: 1;
     
-  }
-  .navegation {
-    margin-right: 3rem;
   }
 
   .navegation ul li {
-      margin: 0.2rem;
+      
       list-style: none;
       
   }
@@ -32,113 +26,99 @@
     margin-bottom: 0.7rem;
   }
 
-
-  /* estilo do menu hamburguer */
-  
-  *:before,
-  *:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .menu {
-    border-radius: 50%;
+  /* estilizando bottoes e linhas */
+  .button-hamburguer {
   
     cursor: pointer;
-    height: 45px;
-    width: 45px;
-    position: absolute;
-    right: 25px;
-    top: 9px;
-    transition: box-shadow 1.1s cubic-bezier(0.19, 1, 0.22, 1);
-    padding: 2px;
-  
-    z-index: 2;
+    background-color: transparent;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    padding: 0;
+    
   }
-  
-  .menu-btn {
+  /* criando o botao hamburguer */
+  .menu-btn {   
+
+    background: #fff;
+
+    width: 2.4rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    
     position: relative;
-    top: 19px;
-    left: 10.5px;
-    width: 20px;
-    height: 2px;
-    background: #fff;
-    display: block;
-    transform-origin: center;
-    transition: 0.5s ease-in-out;
 
-  }
-  
-  .menu-btn:after,
-  .menu-btn:before {
-    background: #fff;
-    content: "";
-    display: block;
-    transition: 0.5s ease-in-out;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .menu-btn:before {
-    top: -10px;
-  }
-  
-  .menu-btn:after {
-    bottom: -10px;
-  }
-  
-  .navegation input {
-    display: none;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+    
   }
 
-  /* menu abrindo */
-  
-  input:checked ~ label .menu-btn {
+  .one-open {
     transform: rotate(45deg);
-  }
-  
-  input:checked ~ label .menu-btn:after {
-    transform: rotate(90deg);
-    bottom: 0;
-  }
-  
-  input:checked ~ label .menu-btn:before {
-    transform: rotate(90deg);
-    top: 0;
+    
   }
 
-  input:checked ~ label .menu {
-    box-shadow: 0 0 0 130vw #855298, 0 0 0 130vh #855298;
-}
-  
-  input:checked ~ ul {
-    opacity: 1;
-    visibility: visible;
+  .three-open {
+    transform: rotate(-45deg);
+    
   }
 
-  /* menu fechando */ 
-  .navegation ul li:active {
-    visibility: hidden;
+  .line-close {
+    transform: rotate(0);
   }
 
-  
-
-  /*fim da ação */
-  
-  .navegation ul {
-    position: absolute;
-    top: 140px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    list-style: none;
-    font-size: 1.1rem;
+  .two-open {
     opacity: 0;
-    transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
-    visibility: hidden;
-    z-index: 2;
   }
+  
+  .two-close {
+    opacity: 1;
+  }
+  
+
+  .navegation {
+
+    display: none;
+
+  }
+  /* mostrando o nav */
+
+  .nav-show {
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    height: 100vh;
+  
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    background-color: #A3679A;
+
+  }
+  
+  .menu-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+
+  
+  
+  /*fim da ação */
   
   .links-header {
     color: #fff;
@@ -157,13 +137,26 @@
           
       }
 
-      .navegation ul li {
-          margin: 25px;
-          
+
+      .button-hamburguer {
+        display: none;
       }
+
+      .navegation {
+        display: flex;
+      }
+
+      .menu-list {
+    
+        flex-direction: row;
+    
+      }
+
+      .list-links {
+        margin: 19px 15px 15px 15px;
+
       .menu,
-      .menu-btn,
-      #nav-bar {
+      .menu-btn {
         
         cursor: default;
         visibility: hidden;
