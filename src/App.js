@@ -10,6 +10,7 @@ import Home from './Pages/Home';
 import Guia from './Pages/Guia';
 import Colaboradores from './Pages/Colaboradores';
 import Login from './Pages/Login';
+import ScrollToTop from './components/ScrollToTop';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <BrowserRouter>
     <div className="App">
       <Header />
+      <ScrollToTop />
         <Switch>
             <Route exact path="/"><Home/></Route>
             < Route exact path="/guia"><Guia /></Route>

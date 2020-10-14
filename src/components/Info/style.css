@@ -31,23 +31,23 @@
 }
 .btn-info {
     display: inline-block;
-    background: transparent;
+    background: #A3679A;
     width: 12rem;
     height: 3rem;
     padding: 13px;
     margin-bottom: 1rem;
-    text-transform: uppercase;
     font-weight: bold;
-    color: #A3679A;
+    font-size: 1.1rem;
+    color: #fff;
     letter-spacing: 1px;
     border-radius: 3px;
-    border: 2px solid #fff;
-    border: 1px solid #A3679A;
 }
 .btn-info:hover {
-    background: #A3679A;
-    color: #fff;
-    transition: all 0.5s linear;
+    opacity: 0.9;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.9);
+    transition: 0.5s;
 }
 
 

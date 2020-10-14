@@ -5,7 +5,7 @@
   }
 
   .cursos-text p {
-    padding: 1rem;
+    padding: 1rem 1rem 0;
   }
   
   .cursos-text h2 {
@@ -31,10 +31,16 @@
     border-radius: 5px;
     border: none;
     margin-top: 15px;
-    height: 2.5rem;
+    height: 2.8rem;
     width: 12rem;
     outline: none;
     background: #855298;
+  }
+  .lista-cursos button:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.9);
+    transition: 0.5s;
   }
 
   .lista-cursos button a span {

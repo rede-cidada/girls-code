@@ -1,7 +1,5 @@
 import React from "react";
 import "./styles.css";
-
-
 import logoIcon from "../../assets/nova-logo.svg";
 
 import { Link } from 'react-router-dom';
@@ -23,19 +21,19 @@ const Header = () => {
         </label>
 
         <ul>
-          <li className="teste">
+          <li className="list-links">
             <Link className="links-header" to="/">Home</Link>
           </li>
-          <li>
+          <li className="list-links">
             <Link className="links-header" to="/guia">Guia</Link>
           </li>
-          <li>
+          <li className="list-links">
             <Link className="links-header" to="/colaboradores">Colaboradores</Link>
           </li>
-          <li>
+          <li className="list-links">
             <Link className="links-header" to="/login">Participe</Link>
           </li>
-          <li>
+          <li className="list-links">
             <a className="links-header" href="#footer">Contato</a>
           </li>
         </ul>
