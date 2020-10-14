@@ -32,22 +32,21 @@
 .btn-info {
     display: inline-block;
     background: #A3679A;
-    width: 12rem;
+    width: 11rem;
     height: 3rem;
-    padding: 13px;
+    padding: 10px;
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: 1.1rem;
     color: #fff;
     letter-spacing: 1px;
-    border-radius: 3px;
+    border-radius: 1px;
+
 }
 .btn-info:hover {
-    opacity: 0.9;
-    -webkit-transform: scale(0.8);
-    -ms-transform: scale(0.8);
-    transform: scale(0.9);
-    transition: 0.5s;
+    box-shadow: 0.3em 0.3em 0 0 #A3679A, inset 0.3em 0.3em 0 0 #544F77;
+    padding: 17px;
+    transition: all 0.7s;
 }
 
 

@@ -31,7 +31,7 @@ const Header = () => {
             <Link className="links-header" to="/colaboradores">Colaboradores</Link>
           </li>
           <li className="list-links">
-            <Link className="links-header" to="/login">Participe</Link>
+            <Link className="links-header" to="/login">Cadastre-se</Link>
           </li>
           <li className="list-links">
             <a className="links-header" href="#footer">Contato</a>

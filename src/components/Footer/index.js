@@ -3,6 +3,11 @@ import "../Footer/style.css";
 import Logo from "../../assets/nova-logo.svg";
 import imageConnetions from "../../assets/conects-woman.svg";
 import heartImage from "../../assets/heart.svg";
+import iconFacebook from "../../assets/icon-facebook.svg";
+import iconInstagram from "../../assets/icon-instagram.svg";
+import iconTwitter from "../../assets/icon-twitter.svg";
+
+
 
 
 const Footer = () => {
@@ -30,7 +35,17 @@ const Footer = () => {
 
         <div className="box-contato">
           <h4 className="title-footer">Nossas redes sociais:</h4>
-          <p className="paragraph-footer">girlscode@gmail.com</p>
+
+          <div className="box-icons"> 
+           <img className="icons-footer" src={iconFacebook} alt="Ícone do facebook"/> 
+           <img className="icons-footer" src={iconInstagram} alt="Ícone do instagram"/>
+           <img className="icons-footer" src={iconTwitter} alt="Ícone do twitter"/> 
+
+          </div>
+           
+
+
+
         </div>
 
       </div>

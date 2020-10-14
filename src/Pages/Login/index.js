@@ -49,7 +49,7 @@ const Login = () => {
                 {errors.password && <p className="error">{errors.password.message}</p>}
 
              
-              <button className="btn-form"  onClick={onSubmit()} type="submit">Cadastre-se</button>
+              <button className="btn-form"  onClick={onSubmit()} type="submit">Cadastrar</button>
 
               </form>
           </div>

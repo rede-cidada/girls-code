@@ -13,7 +13,7 @@ export const Info = () => {
                 <h1 className="title-info">Girls <span className="span-info">&#60;code&#62;</span></h1>
                 <p className="paragraph-info">Nosso objetivo é te trazer para o mundo da tecnologia, topa? Então vem com a gente!</p>
 
-                <Link className="btn-info" to="/login">Participe</Link>
+                <Link className="btn-info" to="/login">Cadastre-se</Link>
             </div>
     
             <img className="image-superWoman" src={imageHome} alt="Mulher negra super heroína"/>
