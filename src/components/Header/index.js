@@ -1,40 +1,47 @@
 import React from "react";
 import "./styles.css";
 
-
 import logoIcon from "../../assets/nova-logo.svg";
 
 import { Link } from 'react-router-dom';
+import { useState } from "react";
 
 const Header = () => {
+
+  const [open, setOpen] = useState(false);
 
   return (
 
     <header className="header">
       <Link to="/"><img src={logoIcon} alt="logo" className="logo-header" /></Link>
 
-      <nav className="navegation">
+      <button className="button-hamburguer" onClick={() => setOpen(!open)}>
+          <div className={`menu-btn ${open ? 'one-open' : 'line-close'}`} />
 
-        <input id="navbar" type="checkbox"></input>
-        <label htmlFor="navbar">
-          <div className="menu">
-            <span className="menu-btn"></span>
-          </div>
-        </label>
+          <div className={`menu-btn ${open ? 'two-open' : 'two-close'}`} />
 
-        <ul>
-          <li>
+          <div className={`menu-btn ${open ? 'three-open' : 'line-close'}`} />
+        </button>
+
+      <nav className={`navegation ${open ? 'nav-show' : ''}`}>
+        <ul className="menu-list">
+
+          <li onClick={() => setOpen(false)}>
             <Link to="/">Home</Link>
           </li>
-          <li>
+
+          <li onClick={() => setOpen(false)}>
             <Link to="/guia">Guias</Link>
           </li>
-          <li>
+
+          <li onClick={() => setOpen(false)}>
             <Link to="/colaboradores">Colaboradores</Link>
           </li>
-          <li>
+
+          <li onClick={() => setOpen(false)}>
             <a href="#footer">Contato</a>
           </li>
+
         </ul>
       </nav>
     </header>
