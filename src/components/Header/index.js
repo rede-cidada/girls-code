@@ -40,7 +40,8 @@ const Header = () => {
           </li>
 
           <li onClick={() => setOpen(false)} className="list-links">
-            <Link className="links-header" to="/login">Participe</Link>
+            <Link className="links-header" to="/login">Cadastre-se</Link>
+
           </li>
 
           <li onClick={() => setOpen(false)} className="list-links">

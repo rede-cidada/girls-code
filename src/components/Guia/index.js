@@ -8,7 +8,7 @@ export const Guia = () => {
     <section className="section-guia">
       <h2 className="title-guia">Se liga mulher!</h2>
 
-      <div className="teste">
+    <div className="main-box">
       <div className="box-guia">
         <p className="paragraph-guia">
           Aqui tu encontra o nosso mini guia sobre essa área e indicações de cursos gratuitos pra tu conhecer esse universo lindo.
@@ -18,7 +18,7 @@ export const Guia = () => {
         </Link>
       </div>
 
-      <div className="box-guia box-guia-style ">
+    <div className="box-guia box-guia-style ">
         <p className="paragraph-guia">
           E ó a gente não é pouca coisa não! Também temos mentoras voluntárias pra te ajudar nesse processo.
         </p>

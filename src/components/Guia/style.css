@@ -14,7 +14,7 @@
   color: #2C2637;
   font-size: 1.8rem;
 }
-.teste {
+.main-box {
   margin: 2rem 0 0 0;
   height: 100%;
 }
@@ -65,7 +65,7 @@
   }
 
   @media (min-width: 700px) {
-    .teste {
+    .main-box {
       width: 100%;
       display: flex;
       justify-content: space-evenly;

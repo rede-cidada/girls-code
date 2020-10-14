@@ -2,13 +2,15 @@
 
     width: 100%;
     height: 100vh;
-  
     background-color: #ffc864;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .page-section img {
     width: 20rem;
-    margin-top: 4rem;
   }
   
   .text-info {
@@ -25,8 +27,7 @@
   @media (min-width: 900px) {
     .page-section {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-direction: row;
     }
   
     .page-section img {

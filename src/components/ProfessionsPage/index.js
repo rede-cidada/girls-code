@@ -51,7 +51,7 @@ const Professsions = () => {
 
                 </ul>
 
-                <p className="more-info">"Tá! Então qual a diferença entre Back e End?" Tem muitas! Vamos explicar a seguir.</p>
+                <p className="more-info"> Tá! Então qual a diferença entre Back e End ? Tem muitas! Vamos explicar a seguir.</p>
             </section>
            
         </div>

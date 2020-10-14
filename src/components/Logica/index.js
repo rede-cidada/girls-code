@@ -17,7 +17,7 @@ const Logica = () => {
               É o primeiro passo porque isso não muda, independente da linguagem
               que você escolher. Consiste em aprender técnicas para escrever
               códigos que possam ser interpretados por computadores. A seguir tem
-            alguns links onde to assistir e entender melhor.{" "}
+            um link onde você pode assistir e entender melhor.{" "}
             </p>
 
             <a
@@ -56,12 +56,11 @@ const Logica = () => {
             <p>
               Você já deve ter ouvido falar muito sobre variáveis e constantes
               quando o assunto é programação, não é mesmo?
-          </p>
-            <p>
               Uma variável é um espaço para armazenar um tipo de dado que pode ser
               modificado quando necessário. Já a constante possuí um dado definido
               no início do programa e não poderá ser alterado.
           </p>
+          
           </div>
         </div>
       </div>
