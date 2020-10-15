@@ -13,12 +13,6 @@
     position: fixed;
     
   }
-
-  .navegation ul li {
-      
-      list-style: none;
-      
-  }
   
   .logo-header {
     width: 7rem;
@@ -86,9 +80,10 @@
   }
   
 
-  .navegation {
+  .navegation-menu {
 
     display: none;
+    list-style: none;
 
   }
   /* mostrando o nav */

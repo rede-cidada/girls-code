@@ -1,7 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useForm } from "react-hook-form";
+import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 import '../Login/style.css';
+
 
 
 
@@ -11,6 +14,8 @@ const Login = () => {
 
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
+
+    const [sucesso, setSucesso] = useState(false);
 
     let storage = []; 
 
@@ -24,29 +29,29 @@ const Login = () => {
         setSenha(e.target.value)
     }
 
-    const cadastrar = (data) => {
-        console.log("Data submitted: ", data);
-
-    }
-
     const cadastrar2 = (event) => {
         event.preventDefault();
 
-        const teste = storage.includes(e => e.email !== email);
+        const teste = storage.every(e => e.email !== email);
 
         if (teste) {
+
             storage.push({ email: email, senha: senha }); 
-        } else {
+            console.log(storage)
             
+            setSucesso(true)
+            
+            
+        } else {
+            console.log("n foi")
         }
-        console.log(email);
-        console.log(senha);
+        
 
     } 
 
     return (
         <section className="container-login">
-          <div className="box-login">
+          <div className={`box-login ${sucesso ? 'login-close' : ''}`}>
               <h3 className="title-login">Cadastre-se na nossa plataforma</h3>
               <p className="description-login">Vem fazer parte desse time de mulheres!</p>
 
@@ -80,6 +85,17 @@ const Login = () => {
               <button className="btn-form"  onClick={cadastrar2} type="submit">Cadastrar</button>
 
               </form>
+          </div>
+
+          <div className={`box-sucesso ${sucesso ? 'true-sucesso' : ''}`}>
+              <h4 className="title-sucesso">É isso aí! Você se cadastrou.</h4>
+              <p className="descricao-sucesso">Agora é só checar seu email para confirmar sua inscrição!</p>
+
+              <div className="return-btn">
+              <Link to='/' className="return-home">
+                Home
+              </Link>
+              </div>
           </div>
         </section>
 
