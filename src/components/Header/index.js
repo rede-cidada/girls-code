@@ -23,7 +23,7 @@ const Header = () => {
           <div className={`menu-btn ${open ? 'three-open' : 'line-close'}`} />
         </button>
 
-      <nav className={`navegation ${open ? 'nav-show' : ''}`}>
+      <nav className={`navegation-menu ${open ? 'nav-show' : ''}`}>
         <ul className="menu-list">
 
 
