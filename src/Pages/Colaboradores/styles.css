@@ -25,7 +25,7 @@
 
   .colaboradores-text h1 {
     font-size: 2.6rem;
-    color: #a3679a;
+    color: var(--roxo-principal-color);
     font-weight: bolder;
   }
 
@@ -75,7 +75,7 @@
 
   .info-colaboradores .colaboradores-nome {
     margin: 0 auto 10px auto;
-    color: #ff907d;
+    color: var(--titulo-mentoras-color);
   }
   
   .contatos {

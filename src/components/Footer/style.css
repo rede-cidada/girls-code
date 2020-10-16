@@ -1,6 +1,6 @@
 
   .footer {
-    background-color: #A3679A;
+    background-color: var(--roxo-principal-color);
     color: antiquewhite;
     width: 100%;
     display: flex;
@@ -28,7 +28,7 @@
 
   .title-footer {
     font-size: 1.2rem;
-    color: #FFC864;
+    color: var(--amarelo-principal-color);
   }
   .title-footer:hover {
     opacity: 0.8;

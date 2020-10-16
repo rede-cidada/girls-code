@@ -1,7 +1,7 @@
 .cursos-area {
     width: 100%;
     height: 100%;
-    background: #ffc864;
+    background: var(--amarelo-principal-color);
   }
 
   .cursos-text p {
@@ -22,7 +22,7 @@
   }
 
   .cursos-text {
-    color: #2C2637;
+    color: var(--letras-color);
     padding: 1rem;
   }
   
@@ -34,7 +34,7 @@
     height: 2.8rem;
     width: 12rem;
     outline: none;
-    background: #855298;
+    background: var(--roxo-principal-color);;
   }
   .lista-cursos button:hover {
     -webkit-transform: scale(0.8);
@@ -48,7 +48,8 @@
   }
 
   .lista-cursos button a {
-    color: thistle;
+    color: var(--letras-brancas-color);
+    font-weight: bold;
   }
   
 

@@ -4,7 +4,7 @@
   width: 100%;
   height: 90vh;
   
-  background: #FA9F91;
+  background-color: var(--fundo-sobre-color);
   
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@
 .about-section h2 {
 
   font-size: 1.7rem;
-  color: #1A3059;
+  color: var(--azul-escuro-color);
   font-weight: bold;
 
   margin-bottom: 2.5rem;
@@ -23,18 +23,18 @@
 
 .about-section #girls {
   text-transform: uppercase;
-  color: #1A3059;
+  color: var(--azul-escuro-color);
   font-weight: bold;
 }
 
 .about-section #code {
-  color:#1A3059;
+  color: var(--azul-escuro-color);
   font-weight: bold;
 }
 
 .about-section #enfase {
   text-transform: uppercase;
-  color: #1A3059;
+  color: var(--azul-escuro-color);
   font-weight: bold;
 }
 
@@ -42,7 +42,7 @@
 
   padding: 10px 25px;
   font-size: 1.2rem;
-  color: #2C2637;
+  color: var(--letras-color);
 
 }
 

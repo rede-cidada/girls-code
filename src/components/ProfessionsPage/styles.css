@@ -1,6 +1,6 @@
 .container-profe {
     width: 100%;
-    background-color: #ffc864;
+    background-color: var(--amarelo-principal-color);
     padding: 20px;
 }
 
@@ -11,7 +11,7 @@
 .profe-text h2 {
     padding-top: 2rem;
     font-size: 1.5rem;
-    color: #1A3059;
+    color: var(--azul-escuro-color);
 }
 
 .more-info {
@@ -22,7 +22,7 @@
 .profe-text p {
     margin: 5px;
     font-size: 1.2rem;
-    color: #2C2637;
+    color: var(--letras-color);
 }
 
 .profe-list ul {
@@ -30,7 +30,7 @@
 }
 
 .profe-list ul li {
-    color: #2C2637;
+    color: var(--letras-color);
     margin: 5px 0px 10px 0px;
 }
 
@@ -39,7 +39,7 @@
     font-size: 1.2rem;
 
     background-color: #855298;
-    color: #ffc864;
+    color: var(--amarelo-principal-color);
 
     border-radius: 25px;
 

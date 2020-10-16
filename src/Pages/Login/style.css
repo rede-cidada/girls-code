@@ -28,10 +28,11 @@
     margin-top: 1rem;
     color: #fff;
 }
+
 .login-form {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     margin-top: 3rem;
     
 }
@@ -111,7 +112,7 @@
 
 .return-home {
     display: inline-block;
-    background: #A3679A;
+    background: var(--roxo-principal-color);
     width: 12rem;
     height: 3rem;
     padding: 13px;

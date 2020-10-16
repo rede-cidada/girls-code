@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column-reverse;
-    background: #E9DEFF;
+    background: var(--fundo-info-color);
 }
 .image-superWoman {
     width: 300px;
@@ -15,7 +15,7 @@
 .title-info {
     font-size: 2.3rem;
     text-transform: uppercase;
-    color: #A3679A;
+    color: var(--roxo-principal-color);
 }
 .box-info {
     margin: 2rem 2rem 0;
@@ -31,14 +31,14 @@
 }
 .btn-info {
     display: inline-block;
-    background: #A3679A;
+    background: var(--roxo-principal-color);
     width: 11rem;
     height: 3rem;
     padding: 10px;
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: 1.1rem;
-    color: #fff;
+    color: var(--letras-brancas-color);
     letter-spacing: 1px;
     border-radius: 1px;
 

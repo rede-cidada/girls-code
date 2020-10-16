@@ -1,5 +1,19 @@
 .App {
   text-align: center;
 }
+:root {
+  --roxo-principal-color: #a3679a;
+  --amarelo-principal-color: #ffc864;
+  --azul-escuro-color: #1a3059;
+
+  --fundo-info-color: #e9deff;
+  --fundo-slide-color: #544f77;
+  --fundo-sobre-color: #fa9f91;
+
+  --letras-color: #2c2637;
+  --letras-brancas-color: #fff;
+  --titulo-mentoras-color: #ff907d;
+
+}
 
 
