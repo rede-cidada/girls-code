@@ -15,8 +15,8 @@ const InternetPage = () => {
         width="100%" 
         height="300" 
         src="https://www.youtube.com/embed/HNQD0qJ0TC4?list=PLQq8-9yVHyOYMFAc9v7Yb_cqmNMksEdrk" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        frameBorder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen>
 
         </iframe>
 
