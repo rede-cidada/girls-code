@@ -7,10 +7,8 @@ import '../Login/style.css';
 
 
 
-
-
 const Login = () => {
-    const { register, handleSubmit, errors } = useForm();
+    const { register, errors } = useForm();
 
     const [email, setEmail] = useState("");
     const [senha, setSenha] = useState("");
@@ -32,20 +30,8 @@ const Login = () => {
     const cadastrar2 = (event) => {
         event.preventDefault();
 
-        const teste = storage.every(e => e.email !== email);
-
-        if (teste) {
-
-            storage.push({ email: email, senha: senha }); 
-            console.log(storage)
-            
-            setSucesso(true)
-            
-            
-        } else {
-            console.log("n foi")
-        }
-        
+        storage.push({ email: email, senha: senha });             
+        setSucesso(true)        
 
     } 
 
@@ -70,9 +56,11 @@ const Login = () => {
                 {errors.email && <p className="error">{errors.email.message}</p>}
 
                 <input className="input-form input-password" 
-                type="password" minlength="8" maxLength="10" name="password" onChange={senhaChange} 
+                type="password" name="password" onChange={senhaChange} 
                 placeholder="Senha"  
                 ref={register({
+                    minLength: 8,
+                    maxLength: 10,
                     required: "Digite sua senha",
                     pattern: {
                         message: "Digite uma senha válida",

@@ -3,7 +3,7 @@
     width: 100%;
     height: 100%;
     background-color: #544F77;
-    color: #ffc864;
+    color: var(--amarelo-principal-color);
     padding-bottom: 3rem;
 }
 

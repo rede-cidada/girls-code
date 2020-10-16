@@ -1,6 +1,6 @@
 .internet-area {
     width: 100%;
-    background: #E9DEFF;
+    background: var(--fundo-info-color);
 
 }
 
@@ -11,13 +11,13 @@
 .internet-texto h2 {
     font-size: 1.7rem;
     padding-top: 3rem;
-    color: #1A3059;
+    color: var(--azul-escuro-color);
 }
 
 .internet-texto p {
     padding: 20px;
     font-size: 1.2rem;
-    color: #855298;
+    color: var(--roxo-principal-color);
 }
 
 .internet-video {
@@ -27,7 +27,7 @@
 .internet-video p {
     font-size: 1.2rem;
     padding: 40px 10px;
-    color: #2C2637;
+    color: var(--letras-color);
 }
 
 @media (min-width: 900px) {

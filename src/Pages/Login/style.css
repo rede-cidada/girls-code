@@ -28,6 +28,7 @@
     margin-top: 1rem;
     color: #fff;
 }
+
 .login-form {
     display: flex;
     flex-direction: column;
@@ -111,7 +112,7 @@
 
 .return-home {
     display: inline-block;
-    background: #A3679A;
+    background: var(--roxo-principal-color);
     width: 12rem;
     height: 3rem;
     padding: 13px;
